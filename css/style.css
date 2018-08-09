@@ -566,6 +566,7 @@ p {
   width: 260px !important;
   height: 150px !important;
   margin-right: 25px;
+  border: 1px solid #ddd;
 }
 .publication .paper-title {
   margin-top: 22px;
