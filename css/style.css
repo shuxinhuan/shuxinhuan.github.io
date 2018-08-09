@@ -548,11 +548,12 @@ p {
 .publication ul {
   padding: 0 20px 20px 20px;
 }
-.publication ul .paper-year {
-  margin: 15px 0 10px 0 !important;
+.publication ul .title {
+  margin: 30px 0 10px 0;
 }
 .publication ul li {
   list-style-type: none !important;
+  margin-bottom: 30px;
 }
 .publication ul .clearfix {
   zoom: 1;
@@ -569,7 +570,6 @@ p {
   border: 1px solid #ddd;
 }
 .publication .paper-title {
-  margin-top: 22px;
   font-size: 20px;
 }
 .publication .paper-journal {
