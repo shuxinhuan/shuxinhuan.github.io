@@ -1,7 +1,5 @@
 /**
-* 	@template:  Alex
-	author: Idesignt7
-	version: 1.1
+*
 
 TABLE OF CONTENTS
 
@@ -10,12 +8,9 @@ TABLE OF CONTENTS
 		+ Side Menu
 		+ Header
 		+ Hero
-		+ Skills
 		+ Resume
-		+ Services
 		+ Gallery
 		+ Project
-		+ Testimonials
 		+ Contact
 		+ footer
 		+ Responsive
@@ -567,13 +562,17 @@ p {
   width: 260px !important;
   height: 150px !important;
   margin-right: 25px;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
 }
 .publication .paper-title {
   font-size: 20px;
 }
+.publication .paper-author {
+  font-size: 15px;
+}
 .publication .paper-journal {
-  font-style: italic;
+  font-size: 15px;
+  color: #999;
 }
 .publication .paper-supp a {
   margin-right: 5px;
@@ -593,185 +592,37 @@ p {
   font-weight: 500;
 }
 
-/* -------------------------------------------------------
-                     Skills
--------------------------------------------------------- */
-.skills .skills-info .item {
-  margin-bottom: 30px;
-}
-.skills .skills-info .item:last-child {
-  margin-bottom: 0;
-}
-.skills .skills-info .item h6 {
-  margin-bottom: 10px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-}
-.skills .skills-info .item .skills-progress {
-  width: 100%;
-  height: 15px;
-  padding: 1px;
-  line-height: 0;
-  border-radius: 10px;
-  background: #fff;
-  border: 1px solid #eee;
-}
-.skills .skills-info .item .skills-progress span {
-  height: 100%;
-  width: 0;
-  background: #3b414c;
-  position: relative;
-  border-radius: 10px;
-  transition: all .7s linear;
-}
-.skills .skills-info .item .skills-progress span:after {
-  content: attr(data-value);
-  position: absolute;
-  top: -20px;
-  right: 0;
-  font-size: 10px;
-}
-.skills .numbers {
-  margin-top: 100px;
-}
-.skills .numbers .item {
-  text-align: center;
-  position: relative;
-  border: 1px solid #eee;
-  padding: 15px 15px 20px;
-}
-.skills .numbers .icon {
-  font-size: 30px;
-  position: absolute;
-  width: 60px;
-  left: calc(50% - 30px);
-  bottom: -25px;
-  background: #f7f7f7;
-  color: #e3e4db;
-}
-.skills .numbers .num-info {
-  padding: 30px 0;
-  background: #fbfbfb;
-}
-.skills .numbers .num-info h5 {
-  margin-bottom: 10px;
-  font-size: 22px;
-  font-weight: 900;
-  color: #3b414c;
-}
-.skills .numbers .num-info h6 {
-  text-transform: capitalize;
-  letter-spacing: 1px;
-}
 
 /* -------------------------------------------------------
                      Resume
 -------------------------------------------------------- */
-.resume .column-right {
-  width: 95%;
-  margin-left: 5%;
-  padding-top: 30px;
-  padding-left: 50px;
-  border-left: 2px solid #eee;
-}
-.resume .column-right .title {
-  top: -33px;
-  position: absolute;
-  font-size: 20px;
-}
-.resume .column-right .icon {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 50%;
-  color: #fff;
-  background: #3b414c;
-  position: absolute;
-  top: -40px;
-  left: calc(5% - 6px);
-}
-.resume .column-left {
-  width: 95%;
-  padding-top: 30px;
-  padding-right: 50px;
-  border-right: 2px solid #eee;
-  text-align: right;
-}
-.resume .column-left .icon {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 50%;
-  color: #fff;
-  background: #3b414c;
-  position: absolute;
-  top: -40px;
-  right: calc(5% - 6px);
-}
-.resume .column-left .item:after {
-  left: calc(100% + 48px);
-}
-.resume .item {
-  margin-bottom: 50px;
-  position: relative;
-}
-.resume .item:last-child {
-  margin-bottom: 0;
-}
-.resume .item:after {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: -54px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #888;
-}
-.resume .item h6 {
-  margin-bottom: 10px;
-  line-height: 1.5em;
-}
-.resume .item p {
-  font-size: 13px;
-}
-.resume .item .links {
-  color: #4682b4;
-  text-decoration: underline !important;
-  border-bottom: 0;
-}
-.resume .item .date {
-  font-size: 12px;
-  color: #3b414c;
-  margin-bottom: 15px;
-}
-.resume .butn {
-  margin-top: 60px;
+.resume .resume-exp h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600
 }
 
-/* -------------------------------------------------------
-                     Services
--------------------------------------------------------- */
-.services .item {
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 50px;
+.resume .resume-exp .row{
+    font-size: 15px;
+    margin-bottom: 7px;
 }
-.services .item .icon {
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  border-radius: 50%;
-  font-size: 22px;
-  color: #fff;
-  background: #3b414c;
-  margin-bottom: 25px;
+
+.resume .resume-exp .row a{
+    color: #4682b4;
+    text-decoration: underline !important;
+    border-bottom: 0;
 }
-.services .item h6 {
-  margin-bottom: 15px;
+
+.resume .resume-awards h5{
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    font-weight: 600
+}
+
+.resume .resume-awards .row{
+    font-size: 15px;
+    margin-bottom: 7px;
 }
 
 /* -------------------------------------------------------
@@ -894,6 +745,9 @@ p {
 .project .item .img-post {
   position: relative;
 }
+/* .project .item .img-post img{
+  height: 205px
+} */
 .project .item .img-post:after {
   content: "";
   position: absolute;
@@ -929,6 +783,10 @@ p {
 }
 .project .item .post-cont h6 {
   margin-bottom: 5px;
+  font-size: 18px;
+}
+.project .item .post-cont a {
+  text-decoration: underline !important;
 }
 .project .item .post-cont p {
   margin-bottom: 20px;
@@ -1221,73 +1079,6 @@ p {
   margin-left: 0 !important;
 }
 
-/* -------------------------------------------------------
-                     Testimonials
--------------------------------------------------------- */
-.clients .owl-carousel {
-  position: relative;
-}
-.clients .owl-carousel:after {
-  content: "\201C";
-  font-family: "FontAwesome";
-  color: #3b414c;
-  font-size: 50px;
-  width: 70px;
-  height: 70px;
-  line-height: 75px;
-  text-align: center;
-  background: #fafafa;
-  position: absolute;
-  top: -25px;
-  left: -25px;
-  border: 5px solid #fff;
-  border-radius: 50%;
-}
-.clients .item {
-  background: #fafafa;
-  padding: 30px 30px 30px 60px;
-}
-.clients h6 {
-  margin: 20px auto 10px;
-  font-size: 12px;
-  color: #3b414c;
-}
-.clients .info {
-  font-size: 10px;
-  font-style: italic;
-  color: #888;
-  position: relative;
-}
-.clients .info:after {
-  content: "";
-  width: 20px;
-  height: 2px;
-  background: #ccc;
-  position: absolute;
-  top: 50%;
-  right: -30px;
-}
-.clients .client-img {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  overflow: hidden;
-  float: right;
-  border: 5px solid #fff;
-}
-.clients .owl-theme .owl-dots .owl-dot span {
-  width: 10px;
-  height: 5px;
-  border-radius: 5px;
-  margin: 2px;
-}
-.clients .owl-theme .owl-dots .owl-dot.active span,
-.clients .owl-theme .owl-dots .owl-dot:hover span {
-  background: .clients .owl-theme .owl-dots .owl-dot.active span, .clients .owl-theme .owl-dots .owl-dot:hover span main-color;
-}
-.clients .owl-theme .owl-dots .owl-dot.active span {
-  width: 25px;
-}
 
 /* -------------------------------------------------------
                     Contact
