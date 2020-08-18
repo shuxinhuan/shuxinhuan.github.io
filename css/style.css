@@ -557,10 +557,10 @@ p {
   content: "";
   display: table;
 }
-.publication .paper-img {
+.publication .paper-img img {
   float: left;
   width: 260px !important;
-  height: 150px !important;
+  height: 145px !important;
   margin-right: 25px;
   /* border: 1px solid #ddd; */
 }
