@@ -67,7 +67,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2022.08</span>
-          <span className="item">I started my PostDoc position at <a href="https://vishub.net/">VisHub</a>, 📍Univeristy of Edinburgh.</span>
+          <span className="item">I started my PostDoc position at <span className="text-hl"><a href="https://vishub.net/">VisHub</a></span>, 📍Univeristy of Edinburgh.</span>
         </div>
         <div className="news">
           <span className="time">2022.08</span>
