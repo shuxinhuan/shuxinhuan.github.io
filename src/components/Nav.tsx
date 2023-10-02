@@ -33,6 +33,11 @@ function Nav(props: Props) {
     },
     {
       key: '6',
+      href: '#talks',
+      title: <span className="anchorItem" onClick={() => props.setComp('cv')}>Talk</span>,
+    },
+    {
+      key: '7',
       href: '#service',
       title: <span className="anchorItem" onClick={() => props.setComp('cv')}>Service</span>,
     }
@@ -56,7 +61,11 @@ function Nav(props: Props) {
       label: <a href='#teaching' onClick={() => props.setComp('cv')}>Teaching</a>
     },
     {
-      key: '4',
+      key: '6',
+      label: <a href='#talks' onClick={() => props.setComp('cv')}>Talk</a>
+    },
+    {
+      key: '7',
       label: <a href='#service' onClick={() => props.setComp('cv')}>Service</a>
     }
   ]

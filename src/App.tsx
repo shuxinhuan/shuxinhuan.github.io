@@ -9,7 +9,7 @@ import Publication from './components/Publication'
 function App() {
   const currentUrl = window.location.href
   const initComp = () => {
-    if (currentUrl.endsWith('/#cv') || currentUrl.endsWith('/#teaching') || currentUrl.endsWith('/#service')) {
+    if (currentUrl.endsWith('/#cv') || currentUrl.endsWith('/#teaching') || currentUrl.endsWith('/#talks') || currentUrl.endsWith('/#service')) {
       return 'cv'
     }
     return 'home'
