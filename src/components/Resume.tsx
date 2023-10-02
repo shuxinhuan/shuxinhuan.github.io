@@ -1,4 +1,3 @@
-import { Col, Row } from 'antd'
 import './Resume.css'
 import { paperList } from '../assets/info'
 import { PAPER } from '../typings/types'

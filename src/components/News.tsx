@@ -8,7 +8,7 @@ function News () {
 
   const setAttr = (cur: number, count: number) => {
     const elements = document.getElementsByClassName('news')
-    for (let idx = 0; idx < sum; idx++) {
+    for (let idx = 0; idx < count; idx++) {
       const ele = elements[idx]
       if (idx < cur) {
         ele.setAttribute("class", 'news')
