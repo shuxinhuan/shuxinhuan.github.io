@@ -1,0 +1,92 @@
+@font-face {
+  font-family: semibold;
+  src: url('../assets/font/Alegreya-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Alegreya;
+  src: url('../assets/font/Alegreya-Regular.ttf');
+}
+
+#header {
+  position: fixed;
+  z-index: 10;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+}
+
+.first {
+  height: 10px;
+  background: #A31F34;
+}
+
+.second {
+  height: 10px;
+  background: #EDE8E2;
+}
+
+#main {
+  width: 70vw;
+  margin: 0 auto;
+  color: rgba(51, 51, 51, 0.87);
+}
+
+#footer {
+  margin-top: 30px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9em;
+  text-align: center;
+}
+
+a {
+  color: rgba(51, 51, 51, 0.93);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #CA662C;
+  font-weight: 500;
+  border-bottom: 2px solid #CA662C;
+}
+
+.bg-hl {
+  position: relative;
+  font-weight: 600;
+  z-index: 0;
+}
+
+.bg-hl::after {
+  content: '';
+  background-color: #FFE0B2;
+  height: 45%;
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+  border-radius: 30%;
+}
+
+.hl {
+  color: #CA662C;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-hl {
+  color: rgba(51, 51, 51, 0.93);
+  border-bottom: 2px solid #CA662C;
+  text-decoration: none;
+}
+
+.sec-title {
+  font-size: 26px;
+  font-family: 'semibold';
+  margin-bottom: 10px;
+}
