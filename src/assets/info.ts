@@ -2,6 +2,21 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["ai4vis", "tool"],
+    "thumb": "./pub/NL2Rigel.png",
+    "title": "Interactive Table Synthesis with Natural Language",
+    "authorsA": "Yanwei Huang, Yunfan Zhou, Ran Chen, Changhao Pan, ",
+    "authorsB": ", Di Weng, Yingcai Wu",
+    "type": "Journal",
+    "year": 2023,
+    "abbr": "TVCG",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2023",
+    "honor": "",
+    "materials": {
+      "Paper": "https://ieeexplore.ieee.org/document/10304286"
+    } as MATERIALS
+  },
+  {
     "category": ["story"],
     "thumb": "./pub/island.jpeg",
     "title": "Posts with no Response: The Island of Loneliness",
