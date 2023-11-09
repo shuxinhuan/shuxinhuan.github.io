@@ -179,7 +179,15 @@ function Resume () {
     <h4>Guest Lecture</h4>
     <div>
         <div className="entry">
-          <span className="time">2020</span>
+          <span className="time">2023</span>
+          <span className="item">
+            <span className='cv-hl'>Data Visualization for Human-data Interaction</span> (Univeristy of Edinburgh)
+            <br />
+            In <em>Data Science for Design</em>, Postgraduate Level Course (~60 people)
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time">2021</span>
           <span className="item">
             <span className='cv-hl'>Designing Data-GIFs for Storytelling</span> (Zhejiang Univeristy)
             <br />
