@@ -183,7 +183,7 @@ function Resume () {
           <span className="item">
             <span className='cv-hl'>Data Visualization for Human-data Interaction</span> (Univeristy of Edinburgh)
             <br />
-            In <em>Data Science for Design</em>, Postgraduate Level Course (~60 people)
+            In <em>Data Science for Design</em>, Postgraduate Level Course
           </span>
         </div>
         <div className="entry">
@@ -191,7 +191,7 @@ function Resume () {
           <span className="item">
             <span className='cv-hl'>Designing Data-GIFs for Storytelling</span> (Zhejiang Univeristy)
             <br />
-            In <em>Data Visualization, Undergraduate Level Course</em>
+            In <em>Data Visualization</em>, Undergraduate Level Course
           </span>
         </div>
     </div>
@@ -206,7 +206,7 @@ function Resume () {
           </span>
         </div>
         <div className="entry">
-          <span className="time">2023</span>
+          <span className="time">2018</span>
           <span className="item">
             <span className='cv-hl'>COMP1021 Introduction to Computer Science</span> (Hong Kong Univeristy of Science and Technology)
             <br />
