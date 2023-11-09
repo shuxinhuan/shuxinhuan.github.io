@@ -17,17 +17,17 @@ function Publication () {
       key: 'story'
     },
     {
-      label: 'AI4Vis',
-      key: 'ai4vis',
-    },
-    {
-      label: 'Vis Tool',
-      key: 'tool',
-    },
-    {
       label: 'Visual Analytics',
       key: 'va',
     },
+    {
+      label: 'Data Transformation',
+      key: 'transform',
+    },
+    {
+      label: 'AI4VIS',
+      key: 'ai4vis',
+    }
   ]
 
   const onClick = (e: any) => {

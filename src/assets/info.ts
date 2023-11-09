@@ -2,7 +2,7 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
-    "category": ["ai4vis", "tool"],
+    "category": ["ai4vis", "transform"],
     "thumb": "./pub/NL2Rigel.png",
     "title": "Interactive Table Synthesis with Natural Language",
     "authorsA": "Yanwei Huang, Yunfan Zhou, Ran Chen, Changhao Pan, ",
@@ -33,7 +33,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["tool", "story"],
+    "category": ["story"],
     "thumb": "./pub/emordle.gif",
     "title": "Creating Emordle: Animating Word Cloud for Emotion Expression",
     "authorsA": "Liwenhan Xie, ",
@@ -64,7 +64,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["tool"],
+    "category": ["transform"],
     "thumb": "./pub/rigel.png",
     "title": "Rigel: Transforming Tabular Data by Declarative Mapping",
     "authorsA": "Ran Chen, Di Weng, Yanwei Huang, ",
@@ -145,7 +145,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["tool"],
+    "category": ["transform", "ai4vis"],
     "thumb": "./pub/nebula.png",
     "title": "Nebula: A Coordinating Grammar of Graphics",
     "authorsA": "Ran Chen, ",
@@ -209,7 +209,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story", "tool"],
+    "category": ["story"],
     "thumb": "./pub/dancingwords.png",
     "title": "DancingWords: exploring animated word clouds to tell stories",
     "authorsA": "",
@@ -241,7 +241,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", "va"],
     "thumb": "./pub/pulse.jpg",
     "title": "Pulse: Toward a Smart Campus by Communicating Real-time Wi-Fi Access Data",
     "authorsA": "Aoyu Wu, Bon Kyung Ku, Furui Cheng, ",
