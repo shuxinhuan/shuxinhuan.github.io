@@ -29,11 +29,11 @@ function About () {
         <p>
           I am currently a PostDoc Fellow, advised by <a className="hl" href="https://vishub.net/bach">Prof. Benjamin Bach</a> in <a className="hl" href="https://vishub.net/">VisHub</a> at Univeristy of Edinburgh.
           I'm also an incoming lecturer (assistant professor) in the <a className="hl" href="https://www.ncl.ac.uk/computing/">School of Computing, Newcastle University</a> in 2024 Spring.
-          I am actively seeking motivated students and research interns! 🙌
+          I am actively seeking motivated PhD students and research interns! 🙌
         </p>
         <p>
           {/* I design and develop effective and expressive visualization techniques and tools, enabling <b>human-data interaction</b> at various data activities. */}
-          My research aims to <span className="text-hl">engage humans in interacting with the world of data through visualization</span>. I work on developing expressive visualization techniques and intelligent tools that enable <b>human-data interaction</b> at various data activities, such as data wrangling, analysis, communication, and decision-making.
+          My research aims to <span className="text-hl">engage humans in interacting with the world of data through visualization</span>. I work on developing expressive visualization techniques and intelligent tools that enable <b>human-data interaction</b> at various data activities, such as data transformation, analysis, communication, and decision-making.
           {/* My reserach mainly adopts qualitative methods and miexed methods.
           Methodology wise I use qualitative methods as my main method, including interviews and content analysis. I also use mixed methods adding descriptive and inferential statistics as needed.
           My research probes the intersection of <b>data visualization</b> and <b>human-computer interaction</b>, where I aim to explore innovative approaches to <b>facilitate human-data interaction</b>. Specifically, I conduct user studies to understand how humans perceive and apply visual designs and interactions in data-driven communication and decision-making. Further, I design and develop interactive and automatic tools for both novices and experts to ease the creation of data visualizations, paving the way for data democratization. */}
