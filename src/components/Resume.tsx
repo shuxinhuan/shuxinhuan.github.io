@@ -42,7 +42,7 @@ function Resume () {
           <span className="item"><span className='cv-hl'>Zhejiang Univeristy</span>, Hangzhou, China <br /> <em>Visiting PhD Student, ZJUIDG, with Prof. Yingcai Wu</em></span>
         </div>
         <div className="entry">
-          <span className="time">2018</span>
+          <span className="time">2016-17</span>
           <span className="item"><span className='cv-hl'>Zhejiang Univeristy</span>, Hangzhou, China <br /> <em>Undergraduate Research Intern, ZJUIDG, with Prof. Yingcai Wu</em></span>
         </div>
       </div>
