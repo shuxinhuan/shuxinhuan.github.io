@@ -42,6 +42,10 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
         <div className="news">
+          <span className="time">2023.11</span>
+          <span className="item">We are hosting the <span className="text-hl"><a href="https://informationplusconference.com/2023/" target="_blank">Information+ Conference</a></span> in 📍 Edinburgh this week (Nov. 22nd - 24th). Welcome to find us @Pleasance Theatre and @Informatics Forum.</span>
+        </div>
+        <div className="news">
             <span className="time">2023.11</span>
           <span className="item">Our paper <em>"Interactive Table Synthesis with Natural Language"</em> got accepted by <span className="text-hl">TVCG</span> 🎉.</span>
         </div>
@@ -50,8 +54,8 @@ function News () {
           <span className="item">I'm honored to serve as an <span className="text-hl"><a href="https://chi2024.acm.org/subcommittees/selecting-a-subcommittee/#understanding_people" target="_blank">Associate Chair</a></span>👩‍⚖️ for ACM CHI 2024.</span>
         </div>
         <div className="news">
-            <span className="time">2023.09</span>
-            <span className="item">I'm honored to serve as an <span className="text-hl"><a href="https://informationplusconference.com/2023/" target="_blank">Student Volunteer Chair</a></span>💂‍♀️ for Information+ Conference.</span>
+          <span className="time">2023.09</span>
+          <span className="item">I'm honored to serve as a Student Volunteer Chair 💂‍♀️ for <span className="text-hl"><a href="https://informationplusconference.com/2023/" target="_blank">Information+ Conference</a></span>.</span>
         </div>
         <div className="news">
             <span className="time">2023.07-2023.09</span>
