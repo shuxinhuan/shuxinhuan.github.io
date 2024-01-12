@@ -32,7 +32,7 @@ function Paper (props: Props) {
   return (
     <Row className="paper">
       <Col span={6} className="thumb">
-        <img src={paper.thumb} alt="" />
+        <img src={`/${paper.thumb}`} alt="" />
       </Col>
       <Col span={18} className="info">
         <p className="title">{paper.title}</p>

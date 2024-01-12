@@ -84,7 +84,7 @@ function Nav(props: Props) {
   return (
     <div id="menu" className="nav">
       <div style={{display: 'flex', alignItems: 'center'}}>
-        <img src="avatar.JPG" style={{width: 25, height: 25}}/>
+        <img src="/avatar.JPG" style={{width: 25, height: 25}}/>
         <span className="name">Xinhuan Shu</span>
       </div>
       {screen > 660 ?
@@ -95,7 +95,7 @@ function Nav(props: Props) {
         <Dropdown menu={{ items }} trigger={['click']}>
           <Space>
             <a onClick={(e) => e.preventDefault()}>
-              <MenuUnfoldOutlined />
+              <MenuUnfoldOutlined style={{fontSize: 20}}/>
             </a>
           </Space>
         </Dropdown>}

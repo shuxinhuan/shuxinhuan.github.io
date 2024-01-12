@@ -10,14 +10,14 @@ function Resume () {
       <h1>Xinhuan Shu</h1>
       <div className='contact'>
         <div className='address'>
-          <span>ILCC, School of Informatics</span>
-          <span>University of Edinburgh</span>
-          <span>47 Potterrow</span>
-          <span>Edinburgh, EH8 9BT</span>
+          <span>School of Computing</span>
+          <span>Newcastle University</span>
+          <span>Urban Science Building</span>
+          <span>Newcastle upon Tyne, NE4 5TG</span>
         </div>
         <div className='misc'>
           <span>+44 753336328 <i className="fa-solid fa-phone"></i></span>
-          <span><a href="mailto:xinhuan.shu@gmail.com">xinhuan.shu@gmail.com <i className="fa-solid fa-envelope"></i></a></span>
+          <span><a href="mailto:xinhuan.shu@newcastle.ac.uk">xinhuan.shu@newcastle.ac.uk <i className="fa-solid fa-envelope"></i></a></span>
           <span><a href='https://shuxinhuan.github.io/'>https://shuxinhuan.github.io/ <i className="fa-solid fa-globe"></i></a></span>
           <span><a href="https://twitter.com/shuxinhuan">@shuxinhuan <i className="fa-brands fa-twitter"></i></a></span>
         </div>
@@ -26,7 +26,11 @@ function Resume () {
       <h3>PROFESSIONAL EXPERIENCE</h3>
       <div>
         <div className="entry">
-          <span className="time">2022-</span>
+          <span className="time">2024-</span>
+          <span className="item"><span className='cv-hl'>Newcastle Univeristy</span>, Newcastle Upon Tyne, UK <br /> <em>Lecturer (Assistant Professor), School of Computing</em></span>
+        </div>
+        <div className="entry">
+          <span className="time">2022-23</span>
           <span className="item"><span className='cv-hl'>University of Edinburgh</span>, Edinburgh, UK <br /> <em>Postdoctoral Fellow, VisHub, with Dr. Benjamin Bach</em></span>
         </div>
         <div className="entry">
@@ -248,7 +252,15 @@ function Resume () {
         <span className="item">
           <span className="cv-hl">Lu Ying</span>, PhD student at Zhejiang Univeristy
           <br />
-          <em>MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization") + 1}]</em>
+          <em>Automatic Generation of Metaphoric Glyph-based Visualization [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization") + 1}]</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className="cv-hl"><a href='https://yhuang.top/' target='_blank'>Yanwei Huang</a></span>, PhD student at Zhejiang Univeristy
+          <br />
+          <em>Interactive Table Synthesis with Natural Language [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Interactive Table Synthesis with Natural Language") + 1}]</em>
         </span>
       </div>
       {/* MASTER */}
@@ -332,6 +344,12 @@ function Resume () {
           <span className='cv-hl'>ChinaVis</span>, full paper track
         </span>
       </div>
+      <div className="entry">
+        <span className="time">2023</span>
+        <span className="item">
+          <span className='cv-hl'>PacificVis</span>, VisNotes track
+        </span>
+      </div>
     </div>
     <h4>Paper Reviewing</h4>
     <div>
@@ -342,7 +360,7 @@ function Resume () {
         </span>
       </div>
       <div className="entry">
-        <span className="time">CHI</span>
+        <span className="time">HCI</span>
         <span className="item">
           <span className='cv-hl'>CHI</span> 2021-23, <span className='cv-hl'>CSCW</span> 2023
         </span>

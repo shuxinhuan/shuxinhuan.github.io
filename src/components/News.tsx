@@ -42,8 +42,12 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
         <div className="news">
+          <span className="time">2024.01</span>
+          <span className="item">I'm very glad to join 📍<a className="text-hl" href="https://www.ncl.ac.uk/computing/">Newcastle University</a> as a lecturer (assistant professor)! </span>
+        </div>
+        <div className="news">
           <span className="time">2023.11</span>
-          <span className="item">We are hosting the <span className="text-hl"><a href="https://informationplusconference.com/2023/" target="_blank">Information+ Conference</a></span> in 📍 Edinburgh this week (Nov. 22nd - 24th). Welcome to find us @Pleasance Theatre and @Informatics Forum.</span>
+          <span className="item">We are hosting the <span className="text-hl"><a href="https://informationplusconference.com/2023/" target="_blank">Information+ Conference</a></span> in 📍Edinburgh this week (Nov. 22nd - 24th). Welcome to find us @Pleasance Theatre and @Informatics Forum.</span>
         </div>
         <div className="news">
             <span className="time">2023.11</span>
