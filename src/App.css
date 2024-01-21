@@ -80,14 +80,15 @@ a:hover {
 
 .hl {
   color: #CA662C;
-  font-weight: 500;
-  cursor: pointer;
+  font-weight: 700;
+  /* cursor: pointer; */
   text-decoration: none;
 }
 
 .text-hl {
   color: rgba(51, 51, 51, 0.93);
-  border-bottom: 2px solid #CA662C;
+  font-weight: 400;
+  border-bottom: 1px solid #CA662C;
   text-decoration: none;
 }
 
