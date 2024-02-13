@@ -169,25 +169,34 @@ function Resume () {
     </div>
 
     <h3 id="teaching">TEACHING EXPERIENCE</h3>
-    <h4>Tutor</h4>
+    <h4>Instructor</h4>
     <div>
         <div className="entry">
-          <span className="time">2023</span>
+          <span className="time">2024</span>
           <span className="item">
-            <span className='cv-hl'>Case Studies in Design Informatics</span> (Univeristy of Edinburgh)
+            <span className='cv-hl'>CSC8632: Data Science in the wild</span> (Newcastle Univeristy)
             <br />
-            <em>Graduate Level Course (Instructor: John Vines)</em>
+            A practical course that immerses students in real-world data science challenges.
           </span>
         </div>
     </div>
+
     <h4>Guest Lecture</h4>
     <div>
+        <div className="entry">
+          <span className="time">2024</span>
+          <span className="item">
+            <span className='cv-hl'>Data Visualization in Human-centered Data Science</span> (Newcastle Univeristy)
+            <br />
+            In <em>Human-AI Interaction</em>, and <em>Complex Data Visualization</em> (Postgraduate Level Course)
+          </span>
+        </div>
         <div className="entry">
           <span className="time">2023</span>
           <span className="item">
             <span className='cv-hl'>Data Visualization for Human-data Interaction</span> (Univeristy of Edinburgh)
             <br />
-            In <em>Data Science for Design</em>, Postgraduate Level Course
+            In <em>Data Science for Design</em> (Postgraduate Level Course)
           </span>
         </div>
         <div className="entry">
@@ -195,9 +204,20 @@ function Resume () {
           <span className="item">
             <span className='cv-hl'>Designing Data-GIFs for Storytelling</span> (Zhejiang Univeristy)
             <br />
-            In <em>Data Visualization</em>, Undergraduate Level Course
+            In <em>Data Visualization</em> (Undergraduate Level Course)
           </span>
         </div>
+    </div>
+    <h4>Tutor</h4>
+    <div>
+      <div className="entry">
+        <span className="time">2023</span>
+        <span className="item">
+          <span className='cv-hl'>Case Studies in Design Informatics</span> (Univeristy of Edinburgh)
+          <br />
+          <em>Graduate Level Course (Instructor: John Vines)</em>
+        </span>
+      </div>
     </div>
     <h4>Teaching Assistant</h4>
     <div>
