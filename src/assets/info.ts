@@ -2,7 +2,7 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
-    "category": ["ai4vis", "transform"],
+    "category": ["transform"],
     "thumb": "./pub/table-illustrator.png",
     "title": "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     "authorsA": "Yanwei Huang, Yurun Yang, ",
@@ -13,7 +13,10 @@ export const paperList: PAPER[] = [
     "full": "ACM Conference on Human Factors in Computing Systems, 2024",
     "honor": "",
     "materials": {
-      // "Paper": ""
+      "Paper": "./pub/chi24_Table_Illustrator.pdf",
+      "Video": "https://www.youtube.com/watch?v=OrFKL5-Fc1Y",
+      "Demo": "https://yhuang.top/tableshop/",
+      "Github": "https://github.com/Ais0n/tableshop"
     } as MATERIALS
   },
   {

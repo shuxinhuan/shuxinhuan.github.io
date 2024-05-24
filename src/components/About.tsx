@@ -33,7 +33,7 @@ function About () {
       <div className="content">
         <p>
           I'm a <b>lecturer (assistant professor)</b> at the <a className="text-hl" href="https://www.ncl.ac.uk/computing/">School of Computing, Newcastle University</a>.
-          I am actively seeking motivated PhD, master, and undergraduate students to work on exciting research projects! 🙌
+          I am actively seeking <b>motivated PhD, master, and undergraduate students</b> to work on exciting research projects! 🙌
         </p>
         <p>
           My research aims to <span className="hl">engage humans in interacting with the world of data through visualization</span>. I work on developing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate human-data interaction at various data activities, including data transformation, analysis, communication, and decision-making.

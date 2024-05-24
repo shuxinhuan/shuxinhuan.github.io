@@ -42,6 +42,22 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
         <div className="news">
+          <span className="time"> Pinned </span>
+          <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/">Data Visualisation Meetup</a> in Newcastle and Edinburgh, bringing together practitioners, designers, and academics in the visualisation field. Welcome to subscribe and stay updated on our events! </span>
+        </div>
+        <div className="news">
+          <span className="time">2024.05</span>
+          <span className="item">Our data artwork 👩‍🎨 <em>"Loss of Sonnet 18"</em> has been accepted by <a className="text-hl" href='https://s2024.siggraph.org/program/art-gallery/' target="_blank">SIGGRAPH 2024 Art Gallery</a>! Looking forward to seeing you in Denver, Colorado! </span>
+        </div>
+        <div className="news">
+          <span className="time">2024.05</span>
+          <span className="item">I'm giving a talk about our projects on data visualization for engagement creation and analysis at📍<a className="text-hl" href="https://www.swansea.ac.uk/compsci/" target='_blank'>Swansea University</a>.</span>
+        </div>
+        <div className="news">
+          <span className="time">2024.02</span>
+          <span className="item">Our paper <em>"Table Illustrator: Puzzle-based interactive authoring of plain tables"</em> got accepted by <span className="text-hl">CHI 2024</span> 🎉.</span>
+        </div>
+        <div className="news">
           <span className="time">2024.01</span>
           <span className="item">I'm very glad to join 📍<a className="text-hl" href="https://www.ncl.ac.uk/computing/">Newcastle University</a> as a lecturer (assistant professor)! </span>
         </div>
@@ -62,8 +78,8 @@ function News () {
           <span className="item">I'm honored to serve as a Student Volunteer Chair 💂‍♀️ for <span className="text-hl"><a href="https://informationplusconference.com/2023/" target="_blank">Information+ Conference</a></span>.</span>
         </div>
         <div className="news">
-            <span className="time">2023.07-2023.09</span>
-            <span className="item">Our data art paper 👩‍🎨 <em>"Posts with no Response: The Island of Loneliness"</em> got accepted by <span className="text-hl"><a href="https://visap.net/2023/" target="_blank">VISAP2023 (both Pictorial and Artwork tracks)</a></span>, <span className="text-hl"><a href="https://informationplusconference.com/2023/#program" target="_blank">Information+ Conference</a></span>, and been longlisted by 2023 <span className="text-hl"><a href="https://www.informationisbeautifulawards.com/showcase/6355-posts-with-no-response-the-island-of-loneliness" target="_blank">Information is Beautiful Awards</a></span>.</span>
+          <span className="time">2023.07-2023.09</span>
+          <span className="item">Our data art paper 👩‍🎨 <em>"Posts with no Response: The Island of Loneliness"</em> got accepted by <span className="text-hl"><a href="https://visap.net/2023/" target="_blank">VISAP2023 (both Pictorial and Artwork tracks)</a></span>, <span className="text-hl"><a href="https://informationplusconference.com/2023/#program" target="_blank">Information+ Conference</a></span>, and been longlisted by 2023 <span className="text-hl"><a href="https://www.informationisbeautifulawards.com/showcase/6355-posts-with-no-response-the-island-of-loneliness" target="_blank">Information is Beautiful Awards</a></span>.</span>
         </div>
         <div className="news">
           <span className="time">2023.06</span>

@@ -169,7 +169,7 @@ function Resume () {
     </div>
 
     <h3 id="teaching">TEACHING EXPERIENCE</h3>
-    <h4>Instructor</h4>
+    <h4>Lecturer</h4>
     <div>
         <div className="entry">
           <span className="time">2024</span>
@@ -181,7 +181,7 @@ function Resume () {
         </div>
     </div>
 
-    <h4>Guest Lecture</h4>
+    <h4>Guest Lecturer</h4>
     <div>
         <div className="entry">
           <span className="time">2024</span>
@@ -298,6 +298,20 @@ function Resume () {
     <h3 id="talks">INVITED TALKS AND OUTREACH</h3>
     <div>
       <div className="entry">
+        <span className="time">2024</span>
+        <span className="item">
+          <span className='cv-hl'>Engaging with Insight: Creating and Analyzing Engagement with Data Visualization</span><br />
+          <em>Swansea Univeristy (2024.05), Swansea, UK</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className='cv-hl'>Data Visualization for Human-AI Teaming</span><br />
+          <em> Research & Innovation Showcase in Data Science & AI (2024.03), Newcastle Upon Tyne, UK</em>
+        </span>
+      </div>
+      <div className="entry">
         <span className="time">2022</span>
         <span className="item">
           <span className='cv-hl'>MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization</span><br />
@@ -338,9 +352,15 @@ function Resume () {
     <h4>Organizing Committees</h4>
     <div>
       <div className="entry">
+        <span className="time">2022-24</span>
+        <span className="item">
+          <span className='cv-hl'>Co-Organizer</span>, <a href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Edinburgh Data Visualisation Meetup</a>
+        </span>
+      </div>
+      <div className="entry">
         <span className="time">2023</span>
         <span className="item">
-          <span className='cv-hl'>Student Volunteer Chair</span>, Information+ Conference
+            <span className='cv-hl'>Student Volunteer Chair</span>, <a href='https://informationplusconference.com/2023/' target='_blank'>Information+ Conference</a>
         </span>
       </div>
     </div>
@@ -353,13 +373,13 @@ function Resume () {
         </span>
       </div>
       <div className="entry">
-        <span className="time">2022-23</span>
+        <span className="time">2022-24</span>
         <span className="item">
           <span className='cv-hl'>IEEE VIS</span>, short paper track
         </span>
       </div>
       <div className="entry">
-        <span className="time">2022-23</span>
+        <span className="time">2022-24</span>
         <span className="item">
           <span className='cv-hl'>ChinaVis</span>, full paper track
         </span>
@@ -376,7 +396,7 @@ function Resume () {
       <div className="entry">
         <span className="time">VIS</span>
         <span className="item">
-          <span className='cv-hl'>VIS</span> 2021-23, <span className='cv-hl'>TVCG</span> 2022-23, <span className='cv-hl'>EuroVis</span> 2020-23, <span className='cv-hl'>PacificVis</span> 2021-23, <span className='cv-hl'>ChinaVis</span> 2021-23
+          <span className='cv-hl'>VIS</span> 2021-24, <span className='cv-hl'>TVCG</span> 2022-24, <span className='cv-hl'>EuroVis</span> 2020-23, <span className='cv-hl'>PacificVis</span> 2021-23, <span className='cv-hl'>ChinaVis</span> 2021-24
         </span>
       </div>
       <div className="entry">
@@ -389,12 +409,6 @@ function Resume () {
 
     <h4>Community Service</h4>
     <div>
-      <div className="entry">
-        <span className="time">2022-</span>
-        <span className="item">
-          <span className='cv-hl'>Assistant Organizer</span>, Edinburgh Data Visualisation Meetup
-        </span>
-      </div>
       <div className="entry">
         <span className="time">2020</span>
         <span className="item">
