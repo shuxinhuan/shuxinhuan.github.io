@@ -51,11 +51,11 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2024.05</span>
-          <span className="item">I'm giving a talk about our projects on data visualization for engagement creation and analysis at📍<a className="text-hl" href="https://www.swansea.ac.uk/compsci/" target='_blank'>Swansea University</a>.</span>
+          <span className="item">I'm giving a talk about our projects on data visualization for engagement creation and analysis at📍 Swansea University.</span>
         </div>
         <div className="news">
           <span className="time">2024.02</span>
-          <span className="item">Our paper <em>"Table Illustrator: Puzzle-based interactive authoring of plain tables"</em> got accepted by <span className="text-hl">CHI 2024</span> 🎉.</span>
+          <span className="item">Our paper <em>"Table Illustrator: Puzzle-based interactive authoring of plain tables"</em> got accepted by CHI 2024 🎉.</span>
         </div>
         <div className="news">
           <span className="time">2024.01</span>

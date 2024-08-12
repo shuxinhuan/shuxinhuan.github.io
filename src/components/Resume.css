@@ -87,12 +87,12 @@
   font-size: 14px;
 }
 
-.item {
+#cv .item {
   width: calc(90% - 10px);
   line-height: 1.5;
 }
 
-.item a {
+#cv .item a {
   color: #CA662C;
 }
 

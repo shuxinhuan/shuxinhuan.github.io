@@ -17,7 +17,7 @@ function About () {
               <span>Lecturer (Assistant Professor) </span>
               <span>@ Newcastle University</span>
             </span>
-            <span style={{fontSize: 16, fontFamily: 'sans-serif', fontWeight: 300, paddingTop: 3}}>Data Visualization 📊 / Human-Computer Interaction 🖥 / Data-driven Storytelling 🖊</span>
+            <span style={{ fontSize: 16, fontFamily: 'sans-serif', fontWeight: 300, paddingTop: 3 }}>Data Visualization 📊 / Human-Computer Interaction 🖥 / Data-driven Storytelling 👩‍🎨</span>
           </div>
 
           <div className="links">
@@ -29,23 +29,27 @@ function About () {
       </div>
 
       <Divider />
-
+      {/* <div className="sec-title"><span className="bg-hl">About Me</span></div> */}
       <div className="content">
         <p>
           I'm a <b>lecturer (assistant professor)</b> at the <a className="text-hl" href="https://www.ncl.ac.uk/computing/">School of Computing, Newcastle University</a>.
-          I am actively seeking <b>motivated PhD, master, and undergraduate students</b> to work on exciting research projects! 🙌
+          I am actively seeking <b>self-motivated students</b> to work on Data Visualization (VIS) and Human-Computer Interaction (HCI).
+          Please find more excited projects and information in <a className="text-hl">work with me</a> if you are interested in! 🙌 
         </p>
-        <p>
-          My research aims to <span className="hl">engage humans in interacting with the world of data through visualization</span>. I work on developing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate human-data interaction at various data activities, including data transformation, analysis, communication, and decision-making.
-          {/* I work on developing expressive visualization techniques and intelligent tools that enable <b>human-data interaction</b> at various data activities */}
-          {/* My research probes the intersection of <b>data visualization</b> and <b>human-computer interaction</b>, where I aim to explore innovative approaches to <b>facilitate human-data interaction</b>. Specifically, I conduct user studies to understand how humans perceive and apply visual designs and interactions in data-driven communication and decision-making. Further, I design and develop interactive and automatic tools for both novices and experts to ease the creation of data visualizations, paving the way for data democratization. */}
-        </p>
-        <p>
-          Prior to that, I was a PostDoc Fellow, advised by <a className="text-hl" href="https://vishub.net/bach">Prof. Benjamin Bach</a> in <a className="text-hl" href="https://vishub.net/">VisHub</a> at Univeristy of Edinburgh. I obtained my Ph.D. from the Hong Kong University of Science and Technology (HKUST), supervised by <a className="text-hl" href="http://huamin.org/">Prof. Huamin Qu</a> in <a className="text-hl" href="http://vis.cse.ust.hk/">VisLab</a>. I got my Bachelor degree, with major in Computer Science and minor in Public Administration at Chu Kochen Honors College, Zhejiang University, where I worked in <a className="text-hl" href="https://zjuidg.org/">ZJUIDG Group</a>, supervised by <a className="text-hl" href="http://www.ycwu.org/">Prof. Yingcai Wu</a>.
 
+        <p >
+          {/* My research aims to <span className="hl">engage humans in interacting with the world of data through visualization</span>. I work on designing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate various data activities, including data transformation, analysis, storytelling, and decision-making.  */}
+
+          {/* My research aims to <span className="hl">engage humans in the dynamic interplay with the world of data through visualization and AI</span>. */}
+          My research aims to <span className="hl">engage humans in interacting, communicating, and making artistic use with data through visualization and AI</span>.
+          I focus on designing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate a broad spectrum of data activities, including data transformation, analysis, decision-making, and storytelling, with a strong emphasis on augmenting data literacy and creativity.
+        </p>
+        
+        <p>
+          Prior to that, I was a PostDoc Fellow at Univeristy of Edinburgh, working with <a className="text-hl" href="https://vishub.net/bach" target="_blank">Prof. Benjamin Bach</a> in <a className="text-hl" href="https://vishub.net/" target="_blank">VisHub</a>. I obtained my Ph.D. from the Hong Kong University of Science and Technology (HKUST), supervised by <a className="text-hl" href="http://huamin.org/" target="_blank">Prof. Huamin Qu</a> in <a className="text-hl" href="http://vis.cse.ust.hk/" target="_blank">VisLab</a>. I got my Bachelor degree, with major in Computer Science and minor in Public Administration at Chu Kochen Honors College, Zhejiang University, where I worked with <a className="text-hl" href="http://www.ycwu.org/"  target="_blank">Prof. Yingcai Wu</a> in <a className="text-hl" href="https://zjuidg.org/" target="_blank">ZJUIDG Group</a>.
         </p>
         <p>
-          I love writing, designing, vlogging, and playing pianos in my spare time.
+          I love <a className="text-hl" href="https://mp.weixin.qq.com/s/vLXPe7LJL0aqsYt65qCWDA" target="_blank">writing</a>, traveling, vlogging, and playing pianos in my spare time.
         </p>
       </div>
 

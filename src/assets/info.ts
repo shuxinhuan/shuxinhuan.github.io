@@ -2,6 +2,39 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["story"],
+    "thumb": "./pub/loss.png",
+    "title": "Loss of Sonnet 18",
+    "authorsA": "Junxiu Tang, Jiayi Zhou, Yifang Wang, ",
+    "authorsB": ", Peiquan Xia, Xiaojiao Chen, Tan Tang, Yingcai Wu",
+    "type": "Other",
+    "year": 2024,
+    "abbr": "SIGGRAPH'24",
+    "full": "ACM SIGGRAPH Art Gallery, 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "https://dl.acm.org/doi/pdf/10.1145/3641523.3669939",
+      "Appendix": "https://osf.io/kjtrb/",
+      "Video": "https://osf.io/6xhfj"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "thumb": "./pub/wonderflow.png",
+    "title": "Table Illustrator: Puzzle-based interactive authoring of plain tables",
+    "authorsA": "Yun Wang*, Leixian Shen*, Zhengxin You, ",
+    "authorsB": ", Bongshin Lee, John Thompson, Haidong Zhang, Dongmei Zhang",
+    "type": "Journal",
+    "year": 2024,
+    "abbr": "TVCG'24",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/pdf/2308.04040",
+      "Homepage": "https://datavideos.github.io/WonderFlow/#/homepage"
+    } as MATERIALS
+  },
+  {
     "category": ["transform"],
     "thumb": "./pub/table-illustrator.png",
     "title": "Table Illustrator: Puzzle-based interactive authoring of plain tables",

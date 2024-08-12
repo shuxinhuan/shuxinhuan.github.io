@@ -57,7 +57,7 @@ a:hover {
   cursor: pointer;
   color: #CA662C;
   font-weight: 500;
-  border-bottom: 2px solid #CA662C;
+  /* border-bottom: 2px solid #CA662C; */
 }
 
 .bg-hl {
@@ -86,9 +86,10 @@ a:hover {
 }
 
 .text-hl {
-  color: rgba(51, 51, 51, 0.93);
-  font-weight: 400;
-  border-bottom: 1px solid #CA662C;
+  /* color: rgba(51, 51, 51, 0.93); */
+  color: rgba(202, 102, 44, 0.8);
+  font-weight: 500;
+  /* border-bottom: 1px solid #CA662C; */
   text-decoration: none;
 }
 
