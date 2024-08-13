@@ -3,7 +3,7 @@ import { MATERIALS, PAPER } from "../typings/types"
 export const paperList: PAPER[] = [
   {
     "category": ["story"],
-    "thumb": "./pub/loss.png",
+    "thumb": "./pub/loss.jpg",
     "title": "Loss of Sonnet 18",
     "authorsA": "Junxiu Tang, Jiayi Zhou, Yifang Wang, ",
     "authorsB": ", Peiquan Xia, Xiaojiao Chen, Tan Tang, Yingcai Wu",
