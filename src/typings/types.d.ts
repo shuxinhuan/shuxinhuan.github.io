@@ -1,13 +1,9 @@
 interface MATERIALS {
   Paper?: string;
-  Video?: string;
-  Homepage?: string;
-  Github?: stirng;
-  Appendix?: string;
-  Demo?: string;
+  [key]?: string;
 }
 
-declare const paperCategories = ['va', 'ai4vis', 'story', 'transform'] as const
+declare const paperCategories = ['va', 'vis+ai', 'story', 'transform', 'art', 'literacy', 'selected', 'others'] as const
 type paperCategory = typeof paperCategories[number]
 
 interface PAPER {

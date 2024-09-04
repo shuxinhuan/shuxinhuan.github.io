@@ -30,6 +30,9 @@
   cursor: pointer;
 } */
 
+.news .item em {
+  font-weight: 400;
+}
 
 .hidden {
   display: none;

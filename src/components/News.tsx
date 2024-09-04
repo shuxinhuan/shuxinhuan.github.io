@@ -3,9 +3,15 @@ import './News.css'
 import { useEffect, useState } from 'react'
 
 function News () {
-  const [current, setCurrent] = useState(2)
+  const [current, setCurrent] = useState(6)
   const [sum, setSum] = useState(0)
 
+  
+  /**
+   * @description set display/hidden news
+   * @param {number} cur
+   * @param {number} count
+   */
   const setAttr = (cur: number, count: number) => {
     const elements = document.getElementsByClassName('news')
     for (let idx = 0; idx < count; idx++) {
@@ -26,13 +32,13 @@ function News () {
   }
 
   const showLess = () => {
-    setCurrent(5)
-    setAttr(5, sum)
+    setCurrent(6)
+    setAttr(6, sum)
   }
 
   useEffect(() => {
     const newSum = document.getElementsByClassName('news').length
-    setAttr(5, newSum)
+    setAttr(6, newSum)
     setSum(newSum)
   }, [sum])
 
@@ -42,16 +48,34 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
         <div className="news">
-          <span className="time"> Pinned </span>
-          <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/">Data Visualisation Meetup</a> in Newcastle and Edinburgh, bringing together practitioners, designers, and academics in the visualisation field. Welcome to subscribe and stay updated on our events! </span>
+          <span className="time">Pinned 📌</span>
+          <span className="item">I am actively seeking <b>motivated students</b> to join the group! See <a className="text-hl" href="./img/projects.pdf" target='_blank'>my project introduction</a> for more information.
+          {/* See <a className="text-hl">working with me</a> for more information. */}
+          </span>
+        </div>
+        <div className="news">
+          <span className="time">Pinned 📌</span>
+          <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
+        </div>
+        <div className="news">
+          <span className="time">2024.09</span>
+          <span className="item">We are hosting <em><a href='https://blogs.ncl.ac.uk/nova/viztig-symposium-2024/' className="text-hl" target="_blank">#VizTIG Symposium 2024</a></em> in 📍Catalyst, Newcastle! 🎉 It's the first time it takes place out of London. Welcome to join us on <em>September 5th</em>.</span>
+        </div>
+        <div className="news">
+          <span className="time">2024.08</span>
+          <span className="item">Our panel <em><a href='https://shuxinhuan.github.io/visap-panel/' className="text-hl" target="_blank">What Do Visualization Art Projects Bring to the VIS Community?</a></em> has been accepted by <em>IEEE VIS 2024</em>! 🎉 Join us to share your thoughts on visualization and art projects! </span>
+        </div>
+        <div className="news">
+          <span className="time">2024.08</span>
+          <span className="item">Three papers and one visualization art project have been accepted by <em>IEEE VIS 2024</em>! 🎉 Congratulations to all co-authors! </span>
         </div>
         <div className="news">
           <span className="time">2024.05</span>
-          <span className="item">Our data artwork 👩‍🎨 <em>"Loss of Sonnet 18"</em> has been accepted by <a className="text-hl" href='https://s2024.siggraph.org/program/art-gallery/' target="_blank">SIGGRAPH 2024 Art Gallery</a>! Looking forward to seeing you in Denver, Colorado! </span>
+          <span className="item">Our data artwork 👩‍🎨 <em><a className="text-hl" href='https://s2024.conference-program.org/presentation/?id=artg_205&sess=sess284' target="_blank">"Loss of Sonnet 18"</a></em> has been accepted by <em>SIGGRAPH 2024 Art Gallery</em>! Looking forward to seeing you in Denver, Colorado! </span>
         </div>
         <div className="news">
           <span className="time">2024.05</span>
-          <span className="item">I'm giving a talk about our projects on data visualization for engagement creation and analysis at📍 Swansea University.</span>
+          <span className="item">I'm giving a talk about our projects on data visualization for engagement creation and analysis at 📍Swansea University and 📍<a className="text-hl" href="https://www.meetup.com/datavisedinburgh/events/301730307/" target='_blank'>Data Visualisation Meetup</a>.</span>
         </div>
         <div className="news">
           <span className="time">2024.02</span>
@@ -79,7 +103,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2023.07-2023.09</span>
-          <span className="item">Our data art paper 👩‍🎨 <em>"Posts with no Response: The Island of Loneliness"</em> got accepted by <span className="text-hl"><a href="https://visap.net/2023/" target="_blank">VISAP2023 (both Pictorial and Artwork tracks)</a></span>, <span className="text-hl"><a href="https://informationplusconference.com/2023/#program" target="_blank">Information+ Conference</a></span>, and been longlisted by 2023 <span className="text-hl"><a href="https://www.informationisbeautifulawards.com/showcase/6355-posts-with-no-response-the-island-of-loneliness" target="_blank">Information is Beautiful Awards</a></span>.</span>
+          <span className="item">Our data art paper 👩‍🎨 <em>"Posts with no Response: The Island of Loneliness"</em> got accepted by <span className="text-hl"><a href="https://visap.net/2023/" target="_blank">VISAP2023 (both Pictorial and Artwork tracks)</a></span>, <span className="text-hl"><a href="https://informationplusconference.com/2023/#program" target="_blank">Information+ Conference</a></span>, and been longlisted by 2023 <a className="text-hl" href="https://www.informationisbeautifulawards.com/showcase/6355-posts-with-no-response-the-island-of-loneliness" target="_blank">Information is Beautiful Awards</a>.</span>
         </div>
         <div className="news">
           <span className="time">2023.06</span>
@@ -99,7 +123,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2022.08</span>
-          <span className="item">Two papers <em>MetaGlyph</em> and <em>Rigel</em> got accepted by <span className="text-hl"><a href="https://ieeevis.org/year/2022/info/papers-sessions" target="_blank"> IEEE VIS 2022</a></span> 🙌.</span>
+          <span className="item">Two papers <em>MetaGlyph</em> and <em>Rigel</em> got accepted by <a className="text-hl" href="https://ieeevis.org/year/2022/info/papers-sessions" target="_blank"> IEEE VIS 2022</a> 🙌.</span>
         </div>
         <div className="news">
           <span className="time">2022.05</span>
@@ -107,10 +131,15 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2021.08</span>
-          <span className="item">I passed my <span className="text-hl">Ph.D. defense</span>!! Many thanks to my committee, mentors, family, and everyone who supported me along the way!!! A <span className="text-hl"><a href="https://mp.weixin.qq.com/s/vLXPe7LJL0aqsYt65qCWDA" target="_blank">refection</a></span> of my PhD life in Chinese.</span>
+          <span className="item">I passed my <a className="text-hl" href='https://cse.hkust.edu.hk/pg/defenses/Summer21/xshuaa-12-08-2021.html'>Ph.D. defense</a>!! Many thanks to my committee, mentors, family, and everyone who supported me along the way!!! A <span className="text-hl"><a href="https://mp.weixin.qq.com/s/vLXPe7LJL0aqsYt65qCWDA" target="_blank">refection</a></span> of my PhD life in Chinese.</span>
         </div>
       </div>
-      {current < sum ? <Button type="text" onClick={showMore}>➕ Show more</Button> : <Button type="text" onClick={showLess}>⬆ Show Less</Button>}
+      
+      <div style={{display: 'flex'}}>
+        {current < sum ? <Button type="text" onClick={showMore}> ⬇️ Show more</Button> : null}
+        {current > 6 ? <Button type="text" onClick={showLess}>⬆ Show Less</Button> : null}
+      </div>
+      
     </div>
   )
 }

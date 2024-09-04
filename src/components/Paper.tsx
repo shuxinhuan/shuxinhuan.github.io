@@ -1,6 +1,6 @@
 import { Row, Col } from "antd"
 import { PAPER } from "../typings/types"
-import './Paper.css'
+import './Publication.css'
 import { FilePdfOutlined, HomeOutlined, VideoCameraOutlined, GlobalOutlined, GithubOutlined, SnippetsOutlined } from '@ant-design/icons';
 
 interface Props {
@@ -25,17 +25,17 @@ function Paper (props: Props) {
       case 'Demo':
         return <GlobalOutlined />
       default:
-        return <></>
+        return <SnippetsOutlined />
     }
   }
 
   return (
     <Row className="paper">
-      <Col span={6} className="thumb">
+      <Col span={5} className="thumb">
         <img src={`/${paper.thumb}`} alt="" />
       </Col>
-      <Col span={18} className="info">
-        <p className="title">{paper.title}</p>
+      <Col span={19} className="info">
+        <p><a href={paper.materials.Paper} target="_blank" className="title">{paper.title}</a></p>
         <p className="author-list">
           <span className="authors">{paper.authorsA}</span>
           <span className="me">Xinhuan Shu</span>
@@ -53,9 +53,10 @@ function Paper (props: Props) {
           {Object.entries(paper.materials).map((entry: [string, string]) => (
             <a className="material" 
               href={entry[1]}
+              target="_blank"
               key={entry[0]}>
                 {getMaterialIcon(entry[0])}
-                <span style={{marginLeft: 2}}>{entry[0]}</span>
+                <span style={{marginLeft: 4}}>{entry[0]}</span>
             </a>
           ))}
         </p>

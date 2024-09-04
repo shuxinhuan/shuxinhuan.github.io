@@ -2,7 +2,69 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
-    "category": ["story"],
+    "category": ["literacy", "story", "selected"],
+    "thumb": "./pub/patternexplainer.png",
+    "title": "Does This Have a Particular Meaning?: Interactive Pattern Explanation for Network Visualizations",
+    "authorsA": "",
+    "authorsB": ", Alexis Pister, Junxiu Tang, Fanny Chevalier, Benjamin Bach",
+    "type": "Other",
+    "year": 2024,
+    "abbr": "VIS'24",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/pdf/2408.01272",
+      "Video": './pub/patternexplainer.mp4'
+    } as MATERIALS
+  },
+  {
+    "category": ["story", 'literacy', 'selected'],
+    "thumb": "./pub/visatlas.png",
+    "title": "Visualization Atlases: Explaining and Exploring Complex Topics through Data, Visualization, and Narration",
+    "authorsA": "Jinrui Wang, ",
+    "authorsB": ", Benjamin Bach, Uta Hinrichs",
+    "type": "Other",
+    "year": 2024,
+    "abbr": "VIS'24",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/pdf/2408.07483",
+      "Homepage": "https://vis-atlas.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["transform", 'vis+ai', 'selected'],
+    "thumb": "./pub/ferry.png",
+    "title": "Ferry: Toward Better Understanding of Input/Output Space for Data Wrangling Scripts",
+    "authorsA": "Zhongsu Luo, Kai Xiong, Jiajun Zhu, Ran Chen, ",
+    "authorsB": ", Di Weng, Yingcai Wu",
+    "type": "Other",
+    "year": 2024,
+    "abbr": "VIS'24",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
+    "honor": "",
+    "materials": {
+      "To appear": "",
+    } as MATERIALS
+  },
+  {
+    "category": ["art"],
+    "thumb": "./pub/PoP.jpg",
+    "title": "Pieces of Peace: Women and Gender in Peace Agreements",
+    "authorsA": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, ",
+    "authorsB": ", Tara Capel, Uta Hinrichs",
+    "type": "Other",
+    "year": 2024,
+    "abbr": "VISAP'24",
+    "full": "IEEE VIS Arts Program (in both Pictorial and Artwork tracks), 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "./pub/PoP.pdf",
+    } as MATERIALS
+  },
+  {
+    "category": ["art"],
     "thumb": "./pub/loss.jpg",
     "title": "Loss of Sonnet 18",
     "authorsA": "Junxiu Tang, Jiayi Zhou, Yifang Wang, ",
@@ -15,13 +77,14 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "https://dl.acm.org/doi/pdf/10.1145/3641523.3669939",
       "Appendix": "https://osf.io/kjtrb/",
-      "Video": "https://osf.io/6xhfj"
+      "Video": "https://osf.io/6xhfj",
+      "Exhibition": "https://s2024.conference-program.org/presentation/?id=artg_205&sess=sess284"
     } as MATERIALS
   },
   {
     "category": ["story"],
     "thumb": "./pub/wonderflow.png",
-    "title": "Table Illustrator: Puzzle-based interactive authoring of plain tables",
+    "title": "WonderFlow: Narration-Centric Design of Animated Data Videos",
     "authorsA": "Yun Wang*, Leixian Shen*, Zhengxin You, ",
     "authorsB": ", Bongshin Lee, John Thompson, Haidong Zhang, Dongmei Zhang",
     "type": "Journal",
@@ -35,9 +98,9 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["transform"],
+    "category": ["transform", 'selected'],
     "thumb": "./pub/table-illustrator.png",
-    "title": "Table Illustrator: Puzzle-based interactive authoring of plain tables",
+    "title": "Table Illustrator: Puzzle-based Interactive Authoring of Plain Tables",
     "authorsA": "Yanwei Huang, Yurun Yang, ",
     "authorsB": ", Ran Chen, Di Weng, and Yingcai Wu",
     "type": "Journal",
@@ -53,14 +116,14 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["ai4vis", "transform"],
+    "category": ["vis+ai", "transform", 'selected'],
     "thumb": "./pub/NL2Rigel.png",
     "title": "Interactive Table Synthesis with Natural Language",
     "authorsA": "Yanwei Huang, Yunfan Zhou, Ran Chen, Changhao Pan, ",
     "authorsB": ", Di Weng, Yingcai Wu",
     "type": "Journal",
     "year": 2023,
-    "abbr": "TVCG",
+    "abbr": "TVCG'23",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2023",
     "honor": "",
     "materials": {
@@ -68,7 +131,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["art"],
     "thumb": "./pub/island.jpeg",
     "title": "Posts with no Response: The Island of Loneliness",
     "authorsA": "Junxiu Tang, Rui Sheng, Yifang Wang, ",
@@ -84,14 +147,14 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", 'selected'],
     "thumb": "./pub/emordle.gif",
     "title": "Creating Emordle: Animating Word Cloud for Emotion Expression",
     "authorsA": "Liwenhan Xie, ",
     "authorsB": ", Jeon Cheol Su, Yun Wang, Siming Chen, Huamin Qu",
     "type": "Journal",
     "year": 2023,
-    "abbr": "TVCG",
+    "abbr": "TVCG'23",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2023",
     "honor": "",
     "materials": {
@@ -100,7 +163,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["ai4vis", "story"],
+    "category": ["vis+ai", "story", 'selected'],
     "thumb": "./pub/metaglyph.png",
     "title": "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization",
     "authorsA": "Lu Ying, ",
@@ -134,7 +197,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["ai4vis"],
+    "category": ["vis+ai"],
     "thumb": "./pub/visimages.png",
     "title": "VisImages: A Fine-Grained Expert-Annotated Visualization Dataset",
     "authorsA": "Dazhen Deng, Yihong Wu, ",
@@ -165,13 +228,13 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["ai4vis"],
+    "category": ["vis+ai", 'selected'],
     "thumb": "./pub/ai4vis.png",
     "title": "AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization",
     "authorsA": "Aoyu Wu, Yun Wang, ",
     "authorsB": ", Dominik Moritz, Weiwei Cui, Haidong Zhang, Dongmei Zhang, Huamin Qu",
     "type": "Journal",
-    "abbr": "TVCG",
+    "abbr": "TVCG'21",
     "year": 2021,
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2021",
     "honor": "",
@@ -196,13 +259,13 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["transform", "ai4vis"],
+    "category": ["transform", 'selected'],
     "thumb": "./pub/nebula.png",
     "title": "Nebula: A Coordinating Grammar of Graphics",
     "authorsA": "Ran Chen, ",
     "authorsB": ", Jiahui Chen, Di Weng, Junxiu Tang, Siwei Fu, Yingcai Wu",
     "type": "Journal",
-    "abbr": "TVCG",
+    "abbr": "TVCG'21",
     "year": 2021,
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2021",
     "honor": "",
@@ -212,14 +275,14 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   }, 
   {
-    "category": ["va"],
+    "category": ["others"],
     "thumb": "./pub/careerflow.png",
     "title": "Interactive Visual Exploration of Longitudinal Historical Career Mobility Data",
     "authorsA": "Yifang Wang,  Hongye Liang, ",
     "authorsB": ", Jiachen Wang, Ke Xu, Zikun Deng, Cameron Campbell, Bijia Chen, Yingcai Wu, and Huamin Qu",
     "type": "Journal",
     "year": 2021,
-    "abbr": "TVCG",
+    "abbr": "TVCG'21",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2021",
     "honor": "",
     "materials": {
@@ -228,14 +291,14 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", 'selected'],
     "thumb": "./pub/datagif.gif",
     "title": "What Makes a Data-GIF Understandable?",
     "authorsA": "",
     "authorsB": ", Aoyu Wu, Junxiu Tang, Banjamin Bach, Yingcai Wu, Huamin Qu",
     "type": "Journal",
     "year": 2020,
-    "abbr": "InfoVis'20",
+    "abbr": "VIS'20",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2020",
     "honor": "",
     "materials": {
@@ -260,14 +323,14 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", 'selected'],
     "thumb": "./pub/dancingwords.png",
     "title": "DancingWords: exploring animated word clouds to tell stories",
     "authorsA": "",
     "authorsB": ", Jiang Wu, Xinke Wu, Hongye Liang, Weiwei Cui, Yingcai Wu, Huamin Qu",
     "type": "Journal",
     "year": 2020,
-    "abbr": "JOV",
+    "abbr": "ChinaVis'20",
     "full": "Journal of Visualization, 2020",
     "honor": "Best Paper Honorable Mention",
     "materials": {
@@ -284,7 +347,7 @@ export const paperList: PAPER[] = [
     "authorsB": ", Yanbang Wang, Yong Wang, Liguo Zhang, Ting-Chuen Pong, Huamin Qu",
     "type": "Journal",
     "year": 2020,
-    "abbr": "TVCG",
+    "abbr": "TVCG'20",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2020",
     "honor": "",
     "materials": {
@@ -292,7 +355,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story", "va"],
+    "category": ["story"],
     "thumb": "./pub/pulse.jpg",
     "title": "Pulse: Toward a Smart Campus by Communicating Real-time Wi-Fi Access Data",
     "authorsA": "Aoyu Wu, Bon Kyung Ku, Furui Cheng, ",
@@ -307,14 +370,14 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["va"],
+    "category": ["others"],
     "thumb": "./pub/BitExTract.png",
     "title": "BitExTract: Interactive Visualization for Extracting Bitcoin Exchange Intelligence",
     "authorsA": "Xuanwu Yue, ",
     "authorsB": ", Xinyu Zhu, Xinnan Du, Zheqing Yu, Dimitrios Papadopoulos, and Siyuan Liu",
     "type": "Journal",
     "year": 2018,
-    "abbr": "VAST'18",
+    "abbr": "VIS'18",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2018",
     "honor": "",
     "materials": {
@@ -330,7 +393,7 @@ export const paperList: PAPER[] = [
     "authorsB": ", Chenyang Ji, Kejian Zhao, Jiachen Wang, and Hui Zhang",
     "type": "Journal",
     "year": 2017,
-    "abbr": "InfoVis'17",
+    "abbr": "VIS'17",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2017",
     "honor": "",
     "materials": {

@@ -5,12 +5,16 @@ import News from './components/News'
 import About from './components/About'
 import Resume from './components/Resume'
 import Publication from './components/Publication'
+import Prospectives from './components/Prospectives'
 
 function App() {
   const currentUrl = window.location.href
   const initComp = () => {
     if (currentUrl.endsWith('/#cv') || currentUrl.endsWith('/#teaching') || currentUrl.endsWith('/#talks') || currentUrl.endsWith('/#service')) {
       return 'cv'
+    }
+    else if (currentUrl.endsWith('/#prospectives')) {
+      return 'prospectives'
     }
     return 'home'
   }
@@ -24,7 +28,7 @@ function App() {
         <Nav setComp={setComp}/>
       </div>
       <div id="main">
-        {comp === 'home' ? <Home /> : <Resume />}
+        {comp === 'home' ? <Home /> : comp === 'prospectives' ? <Prospectives /> : <Resume />}
       </div >
       <div id="footer">
         Copyright @ Xinhuan Shu. Last updated: { new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short' }) }

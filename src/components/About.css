@@ -1,13 +1,3 @@
-@font-face {
-  font-family: semibold;
-  src: url('../assets/font/Alegreya-SemiBold.ttf');
-}
-
-@font-face {
-  font-family: Alegreya;
-  src: url('../assets/font/Alegreya-Regular.ttf');
-}
-
 #about {
   padding-top: 110px;
 }

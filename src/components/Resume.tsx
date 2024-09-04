@@ -27,7 +27,11 @@ function Resume () {
       <div>
         <div className="entry">
           <span className="time">2024-</span>
-          <span className="item"><span className='cv-hl'>Newcastle Univeristy</span>, Newcastle Upon Tyne, UK <br /> <em>Lecturer (Assistant Professor), School of Computing</em></span>
+          <span className="item">
+            <span className='cv-hl'>Newcastle Univeristy</span>, Newcastle Upon Tyne, UK <br /> 
+            <em>Lecturer (Assistant Professor), School of Computing</em> <br /> 
+            <em>Deputy Program Director for Data Science MSc Degree Program</em>
+          </span>
         </div>
         <div className="entry">
           <span className="time">2022-23</span>
@@ -358,6 +362,12 @@ function Resume () {
         </span>
       </div>
       <div className="entry">
+        <span className="time">2024</span>
+        <span className="item">
+            <span className='cv-hl'>Co-Organizer</span>, <a href='https://blogs.ncl.ac.uk/nova/viztig-symposium-2024/' target='_blank'>Visualization Turing Interest Group (#VizTIG) Symposium </a>
+        </span>
+      </div>
+      <div className="entry">
         <span className="time">2023</span>
         <span className="item">
             <span className='cv-hl'>Student Volunteer Chair</span>, <a href='https://informationplusconference.com/2023/' target='_blank'>Information+ Conference</a>
@@ -367,46 +377,35 @@ function Resume () {
     <h4>Program Committees</h4>
     <div>
       <div className="entry">
-        <span className="time">2023</span>
-        <span className="item">
-          <span className='cv-hl'>ACM CHI</span>, full paper track
-        </span>
-      </div>
-      <div className="entry">
-        <span className="time">2022-24</span>
-        <span className="item">
-          <span className='cv-hl'>IEEE VIS</span>, short paper track
-        </span>
-      </div>
-      <div className="entry">
-        <span className="time">2022-24</span>
-        <span className="item">
-          <span className='cv-hl'>ChinaVis</span>, full paper track
-        </span>
-      </div>
-      <div className="entry">
-        <span className="time">2023</span>
-        <span className="item">
-          <span className='cv-hl'>PacificVis</span>, VisNotes track
-        </span>
-      </div>
-    </div>
-    <h4>Paper Reviewing</h4>
-    <div>
-      <div className="entry">
         <span className="time">VIS</span>
         <span className="item">
-          <span className='cv-hl'>VIS</span> 2021-24, <span className='cv-hl'>TVCG</span> 2022-24, <span className='cv-hl'>EuroVis</span> 2020-23, <span className='cv-hl'>PacificVis</span> 2021-23, <span className='cv-hl'>ChinaVis</span> 2021-24
+          <span className='cv-hl'>VIS</span> short paper track (2022-24), <span className='cv-hl'>PacificVis</span> TVCG track (2025), VisNotes (2024), <span className='cv-hl'>ChinaVis</span> full paper track (2022-24)
         </span>
       </div>
       <div className="entry">
         <span className="time">HCI</span>
         <span className="item">
-          <span className='cv-hl'>CHI</span> 2021-23, <span className='cv-hl'>CSCW</span> 2023
+          <span className='cv-hl'>CHI</span> full paper track (2024-25)
         </span>
       </div>
     </div>
 
+    <h4>Paper Reviewing</h4>
+    <div>
+      <div className="entry">
+        <span className="time">VIS</span>
+        <span className="item">
+          <span className='cv-hl'>VIS</span> 2021-24, <span className='cv-hl'>TVCG</span> 2022-24, <span className='cv-hl'>EuroVis</span> 2020-23, <span className='cv-hl'>PacificVis</span> 2021-23, <span className='cv-hl'>ChinaVis</span> 2021-24,  <span className='cv-hl'>VI</span> 2024
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">HCI</span>
+        <span className="item">
+          <span className='cv-hl'>CHI</span> 2021-24, <span className='cv-hl'>CSCW</span> 2023
+        </span>
+      </div>
+    </div>
+ 
     <h4>Community Service</h4>
     <div>
       <div className="entry">

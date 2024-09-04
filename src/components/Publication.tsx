@@ -1,36 +1,58 @@
-import { Divider, Menu, MenuProps } from "antd"
+import { Divider } from "antd"
 import { useState } from "react"
 import { paperList } from "../assets/info.ts"
-import { PAPER } from '../typings/types'
+import { PAPER, paperCategory } from '../typings/types'
 import Paper from "./Paper.tsx"
 
-function Publication () {
-  const [current, setCurrent] = useState<string>('all')
+interface ITEM {
+  label: string;
+  key: paperCategory | 'all';
+}
 
-  const items: MenuProps['items'] = [
+function Publication () {
+  const [current, setCurrent] = useState<string>('selected')
+
+  const items: ITEM[] = [
     {
-      label: 'All',
+      label: 'selected',
+      key: 'selected'
+    },
+    {
+      label: 'all',
       key: 'all'
     },
     {
-      label: 'Visual Storytelling',
+      label: 'storytelling',
       key: 'story'
     },
     {
-      label: 'Visual Analytics',
-      key: 'va',
+      label: 'human-ai collaboration',
+      key: 'vis+ai',
     },
     {
-      label: 'Data Transformation',
+      label: 'literacy',
+      key: 'literacy'
+    },
+    {
+      label: 'data transformation',
       key: 'transform',
     },
     {
-      label: 'AI4VIS',
-      key: 'ai4vis',
-    }
+      label: 'video analysis',
+      key: 'va',
+    },
+    {
+      label: 'data art',
+      key: 'art',
+    },
+    {
+      label: 'others',
+      key: 'others',
+    },
   ]
 
   const onClick = (e: any) => {
+    console.log(e)
     setCurrent(e.key)
   }
 
@@ -46,8 +68,19 @@ function Publication () {
     <div id="publication">
       <Divider />
       <div className="sec-title"><span className="bg-hl">Research</span></div>
-      <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
-      
+      <div style={{marginTop: '1rem'}}>
+        {items.map((item: ITEM) => {
+          return (
+            <button
+              key={item.key} 
+              className={`tag ${item.key===current ? 'tag-active': ''}`} 
+              onClick={() => onClick(item)}
+            >
+                {item.label}
+            </button>)
+        })}
+      </div>
+
       <div className="paper-list">
         {getPaperList(current).map((paper: PAPER) => 
           <Paper
