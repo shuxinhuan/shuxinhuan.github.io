@@ -178,9 +178,17 @@ function Resume () {
         <div className="entry">
           <span className="time">2024</span>
           <span className="item">
+            <span className='cv-hl'><a href="https://www.ncl.ac.uk/mobility/newcastle/study-abroad/CSC3833" target='_blank'>CSC3833: Data Visualization and Visual Analytics</a></span> (Newcastle Univeristy)
+            <br />
+            A visualization course in the undergraduate level.
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time"></span>
+          <span className="item">
             <span className='cv-hl'>CSC8632: Data Science in the wild</span> (Newcastle Univeristy)
             <br />
-            A practical course that immerses students in real-world data science challenges.
+            A practical course in the postgraduate level that immerses students in real-world data science challenges.
           </span>
         </div>
     </div>
@@ -274,7 +282,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className="cv-hl">Lu Ying</span>, PhD student at Zhejiang Univeristy
+            <span className="cv-hl"><a href="http://yiyinyinguu.github.io/" target='_blank'>Lu Ying</a></span>, PhD student at Zhejiang Univeristy
           <br />
           <em>Automatic Generation of Metaphoric Glyph-based Visualization [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization") + 1}]</em>
         </span>
@@ -282,20 +290,28 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className="cv-hl"><a href='https://yhuang.top/' target='_blank'>Yanwei Huang</a></span>, PhD student at Zhejiang Univeristy
+            <span className="cv-hl"><a href="https://maple-possum-c4d.notion.site/Zhongsu-LUO-9a76b04931a848179b6f8488033b3a2a" target='_blank'>Zhongsu Luo</a></span>, PhD student at Zhejiang Univeristy
           <br />
-          <em>Interactive Table Synthesis with Natural Language [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Interactive Table Synthesis with Natural Language") + 1}]</em>
+          <em>Data Wrangling [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Ferry: Toward Better Understanding of Input/Output Space for Data Wrangling Scripts") + 1}]</em>
         </span>
       </div>
       {/* MASTER */}
       <div className="entry">
+          <span className="time">Master</span>
+        <span className="item">
+          <span className="cv-hl"><a href='https://yhuang.top/' target='_blank'>Yanwei Huang</a></span>, Master student at Zhejiang Univeristy
+          <br />
+            <em>Interactive Table Synthesis with Natural Language [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Interactive Table Synthesis with Natural Language") + 1}, P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Table Illustrator: Puzzle-based Interactive Authoring of Plain Tables") + 1}]</em>
+        </span>
+      </div>
+      {/* <div className="entry">
         <span className="time">Master</span>
         <span className="item">
           <span className="cv-hl">Xiaoyang Chen</span>, Msc student at University of Edinburgh
           <br />
           <em>Network Visualization Visual Editor</em>
         </span>
-      </div>
+      </div> */}
     </div>
     {/* <h4>Thesis Committee</h4> */}
 
@@ -304,10 +320,24 @@ function Resume () {
       <div className="entry">
         <span className="time">2024</span>
         <span className="item">
-          <span className='cv-hl'>Engaging with Insight: Creating and Analyzing Engagement with Data Visualization</span><br />
-          <em>Swansea Univeristy (2024.05), Swansea, UK</em>
+          <span className='cv-hl'>Interactive Pattern Explanation for Network Visualization</span><br />
+            <em>#VizTig Symposium (2024.09), IEEE VIS Conference (2024.10)</em>
         </span>
       </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className='cv-hl'>Interfaces and Grammars for Interactive Network Visualisation</span><br />
+          <em>Edinburgh Data Visualisation Meetup (2024.05), Edinburgh, UK</em>
+        </span>
+      </div>
+        <div className="entry">
+          <span className="time"></span>
+          <span className="item">
+            <span className='cv-hl'>Engaging with Insight: Creating and Analyzing Engagement with Data Visualization</span><br />
+            <em>Swansea Univeristy (2024.05), Swansea, UK</em>
+          </span>
+        </div>
       <div className="entry">
         <span className="time"></span>
         <span className="item">

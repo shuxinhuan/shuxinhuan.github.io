@@ -7,7 +7,7 @@ export const paperList: PAPER[] = [
     "title": "Does This Have a Particular Meaning?: Interactive Pattern Explanation for Network Visualizations",
     "authorsA": "",
     "authorsB": ", Alexis Pister, Junxiu Tang, Fanny Chevalier, Benjamin Bach",
-    "type": "Other",
+    "type": "Journal",
     "year": 2024,
     "abbr": "VIS'24",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
@@ -23,7 +23,7 @@ export const paperList: PAPER[] = [
     "title": "Visualization Atlases: Explaining and Exploring Complex Topics through Data, Visualization, and Narration",
     "authorsA": "Jinrui Wang, ",
     "authorsB": ", Benjamin Bach, Uta Hinrichs",
-    "type": "Other",
+    "type": "Journal",
     "year": 2024,
     "abbr": "VIS'24",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
@@ -39,13 +39,13 @@ export const paperList: PAPER[] = [
     "title": "Ferry: Toward Better Understanding of Input/Output Space for Data Wrangling Scripts",
     "authorsA": "Zhongsu Luo, Kai Xiong, Jiajun Zhu, Ran Chen, ",
     "authorsB": ", Di Weng, Yingcai Wu",
-    "type": "Other",
+    "type": "Journal",
     "year": 2024,
     "abbr": "VIS'24",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
     "honor": "",
     "materials": {
-      "To appear": "",
+      "Paper": "https://ieeexplore.ieee.org/document/10670464",
     } as MATERIALS
   },
   {

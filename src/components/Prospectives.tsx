@@ -1,10 +1,9 @@
+import './Prospectives.css'
+
 function Prospectives() {
 
   return (
-    <div>
-      <h1>Work with me</h1>
-      <h1>Work with me</h1>
-      <h1>Work with me</h1>
+    <div id="prospectives">
       <h1>Work with me</h1>
     </div>
   )

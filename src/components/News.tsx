@@ -58,12 +58,12 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div>
         <div className="news">
-          <span className="time">2024.09</span>
-          <span className="item">We are hosting <em><a href='https://blogs.ncl.ac.uk/nova/viztig-symposium-2024/' className="text-hl" target="_blank">#VizTIG Symposium 2024</a></em> in 📍Catalyst, Newcastle! 🎉 It's the first time it takes place out of London. Welcome to join us on <em>September 5th</em>.</span>
+          <span className="time">2024.10</span>
+          <span className="item">We are hosting a panel <em><a href='https://shuxinhuan.github.io/visap-panel/' className="text-hl" target="_blank">What Do Visualization Art Projects Bring to the VIS Community?</a></em> in <em>IEEE VIS 2024</em>! 🎉 Join us to share your thoughts on visualization and art projects! </span>
         </div>
         <div className="news">
-          <span className="time">2024.08</span>
-          <span className="item">Our panel <em><a href='https://shuxinhuan.github.io/visap-panel/' className="text-hl" target="_blank">What Do Visualization Art Projects Bring to the VIS Community?</a></em> has been accepted by <em>IEEE VIS 2024</em>! 🎉 Join us to share your thoughts on visualization and art projects! </span>
+          <span className="time">2024.09</span>
+          <span className="item">We are hosting <em><a href='https://blogs.ncl.ac.uk/nova/viztig-symposium-2024/' className="text-hl" target="_blank">#VizTIG Symposium 2024</a></em> in 📍Catalyst, Newcastle! 🎉 It's the first time it takes place out of London. Welcome to join us on <em>September 5th</em>.</span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
