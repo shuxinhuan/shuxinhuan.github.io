@@ -85,42 +85,6 @@ function Resume () {
         </div>
       </div>
 
-      <h3>SELECTED HONORS & AWARDS</h3>
-      <div>
-        <div className="entry">
-          <span className="time">2017-21</span>
-          <span className="item">
-            Postgraduate Studentship (∼21,630 HKD/yr), Hong Kong Univeristy of Science and Technology
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2020</span>
-          <span className="item">
-            Best Paper Honorable Mention Award, ChinaVis 2020
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2017</span>
-          <span className="item">
-            Outstanding Graduates of Zhejiang University
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2017</span>
-          <span className="item">
-            Excellent Graduation Thesis of Zhejiang University
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2014-16</span>
-          <span className="item">
-            University Scholarships, Zhejiang University
-          </span>
-        </div>
-      </div>
-
-    {/* <h3>GRANTS</h3> */}
-
     <h3>PUBLICATIONS</h3>
     {/* <span>* denotes equal contribution</span> */}
     <h4>Peer-reviewed Conference and Journal Publications</h4>
@@ -171,6 +135,52 @@ function Resume () {
           </div>)
       })}
     </div>
+
+    <h3>SELECTED HONORS & AWARDS</h3>
+    <div>
+      <div className="entry">
+        <span className="time">2017-21</span>
+        <span className="item">
+          Postgraduate Studentship (∼216,300 HKD/yr), Hong Kong Univeristy of Science and Technology
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2020</span>
+        <span className="item">
+          Best Paper Honorable Mention Award, ChinaVis 2020
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2017</span>
+        <span className="item">
+          Outstanding Graduates of Zhejiang University
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2017</span>
+        <span className="item">
+          Excellent Graduation Thesis of Zhejiang University
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2014-16</span>
+        <span className="item">
+          University Scholarships, Zhejiang University
+        </span>
+      </div>
+    </div>
+
+  <h3>GRANTS</h3>
+  <div>
+    <div className="entry">
+      <span className="time">2024</span>
+      <span className="item">
+          <a href='https://gulbenkian.pt/emifund/news/2024-call-for-proposals-results/' target='_blank'>FAMOUS: Fake Activity Market Observation System of Unethical Services</a> (Co-I)<br/>
+          €400k, funded by European Media and Information Fund
+      </span>
+    </div>
+  </div>
+
 
     <h3 id="teaching">TEACHING EXPERIENCE</h3>
     <h4>Lecturer</h4>
@@ -386,7 +396,7 @@ function Resume () {
     <h4>Organizing Committees</h4>
     <div>
       <div className="entry">
-        <span className="time">2022-24</span>
+        <span className="time">2022-</span>
         <span className="item">
           <span className='cv-hl'>Co-Organizer</span>, <a href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Edinburgh Data Visualisation Meetup</a>
         </span>

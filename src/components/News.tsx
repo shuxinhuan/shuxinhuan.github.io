@@ -1,6 +1,7 @@
 import { Button, Divider } from 'antd'
 import './News.css'
 import { useEffect, useState } from 'react'
+import { Link } from "react-router-dom";
 
 function News () {
   const [current, setCurrent] = useState(6)
@@ -49,8 +50,10 @@ function News () {
       <div className="content">
         <div className="news">
           <span className="time">Pinned 📌</span>
-          <span className="item">I am actively seeking <b>motivated students</b> to join the group! See <a className="text-hl" href="./img/projects.pdf" target='_blank'>my project introduction</a> for more information.
-          {/* See <a className="text-hl">working with me</a> for more information. */}
+          <span className="item">I am actively seeking <b>motivated students</b> to join the group! 
+          {/* See <a className="text-hl" href="./img/projects.pdf" target='_blank'>my project introduction</a> for more information. */}
+          See <a className="text-hl" href='https://shuxinhuan.github.io/#prospectives'>working with me</a> for more information.
+          {/* <Link to={`./#prospectives`}>xxx</Link> */}
           </span>
         </div>
         <div className="news">

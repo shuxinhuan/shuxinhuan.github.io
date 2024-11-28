@@ -13,9 +13,9 @@ function App() {
     if (currentUrl.endsWith('/#cv') || currentUrl.endsWith('/#teaching') || currentUrl.endsWith('/#talks') || currentUrl.endsWith('/#service')) {
       return 'cv'
     }
-    // else if (currentUrl.endsWith('/#prospectives')) {
-    //   return 'prospectives'
-    // }
+    else if (currentUrl.endsWith('/#prospectives')) {
+      return 'prospectives'
+    }
     return 'home'
   }
   const [comp, setComp] = useState<string>(initComp)
