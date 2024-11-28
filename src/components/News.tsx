@@ -66,6 +66,10 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2024.09</span>
+          <span className="item">A €400k funding award of the project (Co-I),  <a className='text-hl' href='https://gulbenkian.pt/emifund/news/2024-call-for-proposals-results/' target='_blank'>FAMOUS: Fake Activity Market Observation System of Unethical Services</a>, funded by European Media and Information Fund! 🎉 </span>
+        </div>
+        <div className="news">
+          <span className="time">2024.09</span>
           <span className="item">We are hosting <em><a href='https://blogs.ncl.ac.uk/nova/viztig-symposium-2024/' className="text-hl" target="_blank">#VizTIG Symposium 2024</a></em> in 📍Catalyst, Newcastle! 🎉 It's the first time it takes place out of London. Welcome to join us on <em>September 5th</em>.</span>
         </div>
         <div className="news">
