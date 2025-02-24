@@ -34,10 +34,11 @@ function About () {
           I'm a <b>lecturer (assistant professor)</b> at the <a className="text-hl" href="https://www.ncl.ac.uk/computing/">School of Computing, Newcastle University</a>, and Deputy Program Director for Data Science MSc. Prior to that, I was a PostDoc Fellow at Univeristy of Edinburgh, working with <a className="text-hl" href="https://vishub.net/bach" target="_blank">Dr. Benjamin Bach</a> in <a className="text-hl" href="https://vishub.net/" target="_blank">VisHub</a>. I obtained my Ph.D. from the Hong Kong University of Science and Technology (HKUST), supervised by <a className="text-hl" href="http://huamin.org/" target="_blank">Prof. Huamin Qu</a> in <a className="text-hl" href="http://vis.cse.ust.hk/" target="_blank">VisLab</a>. I got my Bachelor degree, with major in Computer Science and minor in Public Administration at Chu Kochen Honors College, Zhejiang University, where I worked with <a className="text-hl" href="http://www.ycwu.org/" target="_blank">Prof. Yingcai Wu</a> in <a className="text-hl" href="https://zjuidg.org/" target="_blank">Interactive Data Group</a>.
         </p>
 
-        <p>
-          My research aims to <span className="hl">engage humans in interacting, communicating, and making (artistic) use with data through visualization and AI</span>.
+        <p> 
+          My research aims to <span className="hl">empower humans to confidently and critically interact, communicate, and ultimately engage with data through visualization and AI</span>.
+          {/* My research aims to <span className="hl">engage humans in interacting with, communicating through, and creatively making use of data through visualization and AI</span>. */}
           {/* My research aims to <span className="hl">engage humans in interacting with the world of data through visualization</span>. */}
-          I focus on designing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate a broad spectrum of data activities, such as data transformation, analysis, decision-making, and storytelling, with a strong emphasis on promoting data literacy and creativity for all.
+          I focus on designing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate a broad spectrum of data activities, such as data transformation, analysis, decision-making, and storytelling, with a strong emphasis on promoting data/AI literacy and creativity for all.
         </p>
 
         <p>

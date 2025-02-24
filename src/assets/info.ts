@@ -4,7 +4,7 @@ export const paperList: PAPER[] = [
   {
     "category": ["literacy", "story", "selected"],
     "thumb": "./pub/patternexplainer.png",
-    "title": "Does This Have a Particular Meaning?: Interactive Pattern Explanation for Network Visualizations",
+    "title": "Does This Have a Particular Meaning? Interactive Pattern Explanation for Network Visualizations",
     "authorsA": "",
     "authorsB": ", Alexis Pister, Junxiu Tang, Fanny Chevalier, Benjamin Bach",
     "type": "Journal",

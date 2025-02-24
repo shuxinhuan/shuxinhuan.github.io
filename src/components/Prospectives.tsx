@@ -21,9 +21,10 @@ function Prospectives() {
 
       Keep in mind that funding is extremely competitive and any funding thought by the student will help the process. There are some other funding opportunities within the University.
       <ul>
-        <li><a className="text-hl" href='https://www.ncl.ac.uk/postgraduate/fees-funding/search-funding/?code=C0000046' target='_blank'>China Scholarship Council – Newcastle University PhD Scholarships (2025 entry)</a>. deadline: Jan 31, 2025.</li>
-        <li><a className="text-hl" href='https://www.ncl.ac.uk/postgraduate/fees-funding/search-funding/?code=C0000045' target='_blank'>Newcastle University Overseas Research Scholarships (NUORS) (2025 entry)</a>. deadline: May 16, 2025.</li>
-        <li><a className="text-hl" href='https://www.ncl.ac.uk/postgraduate/fees-funding/search-funding/?code=vces25' target='_blank'>Vice-Chancellor’s Excellence Scholarships - Postgraduate (2025 entry)</a>. deadline: May 29, 2025.</li>
+        <li><del><a className="text-hl" href='https://www.ncl.ac.uk/postgraduate/fees-funding/search-funding/?code=C0000046' target='_blank'>China Scholarship Council – Newcastle University PhD Scholarships (2025 entry)</a>. deadline: Jan 31, 2025.</del></li>
+        <li><a className="text-hl" href="https://www.ncl.ac.uk/mediav8/computing/files/phd-studentship-adverts/COMPDLA06.pdf" target='_blank'>A project on VIS/HCI/AI Education with EPSRC-funded PhD Studentship</a>. See <a className="text-hl" href='https://www.ncl.ac.uk/computing/study/postgraduate-research/dla-studentships/' target='_blank'>the application instruction</a>. Deadline: Feb 28, 2025.</li>
+        <li><a className="text-hl" href='https://www.ncl.ac.uk/postgraduate/fees-funding/search-funding/?code=C0000045' target='_blank'>Newcastle University Overseas Research Scholarships (NUORS) (2025 entry)</a>. Deadline: May 16, 2025.</li>
+        <li><a className="text-hl" href='https://www.ncl.ac.uk/postgraduate/fees-funding/search-funding/?code=vces25' target='_blank'>Vice-Chancellor’s Excellence Scholarships - Postgraduate (2025 entry)</a>. Deadline: May 29, 2025.</li>
       </ul>
 
 

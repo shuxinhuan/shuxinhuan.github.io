@@ -1,7 +1,6 @@
 import { Button, Divider } from 'antd'
 import './News.css'
 import { useEffect, useState } from 'react'
-import { Link } from "react-router-dom";
 
 function News () {
   const [current, setCurrent] = useState(6)
@@ -50,15 +49,31 @@ function News () {
       <div className="content">
         <div className="news">
           <span className="time">Pinned 📌</span>
-          <span className="item">I am actively seeking <b>motivated students</b> to join the group! 
+          <span className="item">I am actively seeking <b>motivated students</b> to join the group! See <a className="text-hl" target='_blank' href='https://shuxinhuan.github.io/#prospectives'>working with me</a> for more information.
           {/* See <a className="text-hl" href="./img/projects.pdf" target='_blank'>my project introduction</a> for more information. */}
-          See <a className="text-hl" href='https://shuxinhuan.github.io/#prospectives'>working with me</a> for more information.
+          
           {/* <Link to={`./#prospectives`}>xxx</Link> */}
           </span>
         </div>
         <div className="news">
           <span className="time">Pinned 📌</span>
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
+        </div>
+        <div className="news">
+          <span className="time">2025.02</span>
+          <span className="item">I am hiring an EPSRC-funded PhD in VIS/HCI for Fall 2025 on a project, <em>Promoting AI Literacy through Interactive Visualisations</em>. Deadline: Feb. 28. Welcome to contact me before the application!</span>
+        </div>
+        <div className="news">
+          <span className="time">2024.02</span>
+          <span className="item">Our paper <em>"RouteFlow: Trajectory-Aware Animated Transitions"</em> got accepted by CHI 2025. Congratulations to all the co-authors! 🎉</span>
+        </div>
+        <div className="news">
+          <span className="time">2024.02</span>
+          <span className="item">My PhD student, Xin Shu's paper <em>"FretMate: ChatGPT-Powered Adaptive Guitar Learning Assistant"</em> has been accepted by IUI 2025. Congratulations to all the co-authors! 🎉</span>
+        </div>
+        <div className="news">
+          <span className="time">2024.02</span>
+          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://ieeevis.org/year/2025/info/committees/program-committees" target="_blank">program committee member</a>👩‍⚖️ for IEEE VIS 2025.</span>
         </div>
         <div className="news">
           <span className="time">2024.10</span>

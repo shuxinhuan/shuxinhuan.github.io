@@ -262,31 +262,26 @@ function Resume () {
     </div>
 
     <h3>MENTORING EXPERIENCE</h3>
-    {/* <h4>Advisees</h4> */}
+    <h4>Advisees</h4>
+    <div>
+      <div className="entry">
+        <span className="time">PhD</span>
+        <span className="item">
+            <span className="cv-hl">Xin Shu</span>, PhD student at Newcastle University
+          <br />
+          <em>AI-assisted instrument learning</em>
+        </span>
+      </div>
+    </div>
+
     <h4>Mentoring</h4>
     <div>
       <div className="entry">
         <span className="time">PhD</span>
         <span className="item">
-            <span className="cv-hl"><a href="https://crcrcry.notion.site/" target='_blank'>Ran Chen</a></span>, visiting PhD student at University of Edinburgh
+            <span className="cv-hl"><a href="https://maple-possum-c4d.notion.site/Zhongsu-LUO-9a76b04931a848179b6f8488033b3a2a" target='_blank'>Zhongsu Luo</a></span>, PhD student at Zhejiang Univeristy
           <br />
-            <em>Declarative Construction of Visualization Coordination and Data Transformation [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Rigel: Transforming Tabular Data by Declarative Mapping") + 1}, P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Nebula: A Coordinating Grammar of Graphics") + 1}]</em>
-        </span>
-      </div>
-      <div className="entry">
-        <span className="time"></span>
-        <span className="item">
-            <span className="cv-hl"><a href="https://shellywhen.github.io/" target='_blank'>Liwenhan Xie</a></span>, PhD student at HKUST
-          <br />
-          <em>Creating Emordle: Animating Word Cloud for Emotion Expression [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Creating Emordle: Animating Word Cloud for Emotion Expression") + 1}]</em>
-        </span>
-      </div>
-      <div className="entry">
-        <span className="time"></span>
-        <span className="item">
-            <span className="cv-hl"><a href='https://ahugh19.github.io/' target='_blank'>Junxiu Tang</a></span>, PhD student at Zhejiang Univeristy
-          <br />
-          <em>Animated Visualization for Visual Data Storytelling [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "What Makes a Data-GIF Understandable?") + 1}, W{paperList.filter(p => p.type === 'Other').findIndex((ele) => ele.title === "Narrative Transitions in Data Videos") + 1}]</em>
+          <em>Data Wrangling [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Ferry: Toward Better Understanding of Input/Output Space for Data Wrangling Scripts") + 1}]</em>
         </span>
       </div>
       <div className="entry">
@@ -297,14 +292,33 @@ function Resume () {
           <em>Automatic Generation of Metaphoric Glyph-based Visualization [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization") + 1}]</em>
         </span>
       </div>
+       <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+            <span className="cv-hl"><a href='https://ahugh19.github.io/' target='_blank'>Junxiu Tang</a></span>, PhD student at Zhejiang Univeristy
+          <br />
+          <em>Animated Visualization for Visual Data Storytelling [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "What Makes a Data-GIF Understandable?") + 1}, W{paperList.filter(p => p.type === 'Other').findIndex((ele) => ele.title === "Narrative Transitions in Data Videos") + 1}]</em>
+        </span>
+      </div>
+            <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+            <span className="cv-hl"><a href="https://shellywhen.github.io/" target='_blank'>Liwenhan Xie</a></span>, PhD student at HKUST
+          <br />
+          <em>Creating Emordle: Animating Word Cloud for Emotion Expression [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Creating Emordle: Animating Word Cloud for Emotion Expression") + 1}]</em>
+        </span>
+      </div>
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-            <span className="cv-hl"><a href="https://maple-possum-c4d.notion.site/Zhongsu-LUO-9a76b04931a848179b6f8488033b3a2a" target='_blank'>Zhongsu Luo</a></span>, PhD student at Zhejiang Univeristy
+            <span className="cv-hl"><a href="https://crcrcry.notion.site/" target='_blank'>Ran Chen</a></span>, visiting PhD student at University of Edinburgh
           <br />
-          <em>Data Wrangling [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Ferry: Toward Better Understanding of Input/Output Space for Data Wrangling Scripts") + 1}]</em>
+            <em>Declarative Construction of Visualization Coordination and Data Transformation [P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Rigel: Transforming Tabular Data by Declarative Mapping") + 1}, P{paperList.filter(p => p.type === 'Journal').findIndex((ele) => ele.title === "Nebula: A Coordinating Grammar of Graphics") + 1}]</em>
         </span>
       </div>
+     
+      
+      
       {/* MASTER */}
       <div className="entry">
           <span className="time">Master</span>
@@ -419,13 +433,15 @@ function Resume () {
       <div className="entry">
         <span className="time">VIS</span>
         <span className="item">
-          <span className='cv-hl'>VIS</span> short paper track (2022-24), <span className='cv-hl'>PacificVis</span> TVCG track (2025), VisNotes (2024), <span className='cv-hl'>ChinaVis</span> full paper track (2022-24)
+          <span className='cv-hl'>VIS</span> full paper track 2025, short paper track 2022-24, <br/>
+            <span className='cv-hl'>PacificVis</span> TVCG track 2025, VisNotes 2024, <br />
+            <span className='cv-hl'>ChinaVis</span> full paper track 2022-24
         </span>
       </div>
       <div className="entry">
         <span className="time">HCI</span>
         <span className="item">
-          <span className='cv-hl'>CHI</span> full paper track (2024-25)
+          <span className='cv-hl'>CHI</span> full paper track 2024-25
         </span>
       </div>
     </div>
