@@ -2,6 +2,38 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["story", "selected"],
+    "thumb": "./pub/routeflow.png",
+    "title": "RouteFlow: Trajectory-Aware Animated Transitions",
+    "authorsA": "Duan Li, Xinyuan Guo, ",
+    "authorsB": ", Lanxi Xiao, Lingyun Yu, Shixia Liu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "CHI'25",
+    "full": "ACM Conference on Human Factors in Computing Systems, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/abs/2502.08076",
+      // "Video": './pub/patternexplainer.mp4'
+    } as MATERIALS
+  },
+  {
+    "category": ["vis+ai", "selected"],
+    "thumb": "./pub/fretmate.png",
+    "title": "FretMate: ChatGPT-Powered Adaptive Guitar Learning Assistant",
+    "authorsA": "Xin Shu, Lei Shi, Jiacheng Cheng, Lingling Ouyang, Mengdi Chu, ",
+    "authorsB": "",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "IUI'25",
+    "full": "International Conference on Intelligent User Interfaces, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "https://dl.acm.org/doi/full/10.1145/3708359.3712080",
+      // "Video": './pub/patternexplainer.mp4'
+    } as MATERIALS
+  },
+  {
     "category": ["literacy", "story", "selected"],
     "thumb": "./pub/patternexplainer.png",
     "title": "Does This Have a Particular Meaning? Interactive Pattern Explanation for Network Visualizations",
@@ -259,7 +291,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["transform", 'selected'],
+    "category": ["transform"],
     "thumb": "./pub/nebula.png",
     "title": "Nebula: A Coordinating Grammar of Graphics",
     "authorsA": "Ran Chen, ",
