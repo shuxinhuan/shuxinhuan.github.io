@@ -10,7 +10,7 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2025,
     "abbr": "CHI'25",
-    "full": "ACM Conference on Human Factors in Computing Systems, 2025",
+    "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2025",
     "honor": "",
     "materials": {
       "Paper": "https://arxiv.org/abs/2502.08076",
@@ -26,7 +26,7 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2025,
     "abbr": "IUI'25",
-    "full": "International Conference on Intelligent User Interfaces, 2025",
+    "full": "Proceedings of International Conference on Intelligent User Interfaces, 2025",
     "honor": "",
     "materials": {
       "Paper": "https://dl.acm.org/doi/full/10.1145/3708359.3712080",
@@ -138,7 +138,7 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2024,
     "abbr": "CHI'24",
-    "full": "ACM Conference on Human Factors in Computing Systems, 2024",
+    "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2024",
     "honor": "",
     "materials": {
       "Paper": "./pub/chi24_Table_Illustrator.pdf",
@@ -284,7 +284,7 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2021,
     "abbr": "KDD'21",
-    "full": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2021",
+    "full": "Proceedings of Conference on Knowledge Discovery and Data Mining, 2021",
     "honor": "",
     "materials": {
       "Paper": "./pub/tacValuer.pdf",
