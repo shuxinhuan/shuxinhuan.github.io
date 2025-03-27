@@ -60,6 +60,10 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div>
         <div className="news">
+          <span className="time">2024.03</span>
+          <span className="item"><em>"RouteFlow: Trajectory-Aware Animated Transitions"</em> got the 🏆 <b>Best Paper</b> award in CHI 2025. Congratulations to all the co-authors!</span>
+        </div>
+        <div className="news">
           <span className="time">2025.02</span>
           <span className="item">I am hiring an EPSRC-funded PhD in VIS/HCI for Fall 2025 on a project, <em>Promoting AI Literacy through Interactive Visualisations</em>. Deadline: Feb. 28. Welcome to contact me before the application!</span>
         </div>

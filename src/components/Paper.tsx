@@ -45,9 +45,9 @@ function Paper (props: Props) {
           <span className="abbr">{paper.abbr}</span>
           <span className="full">{paper.full}</span>
         </p>
-        {paper.honor.length !== 0 ? <p className="honor">
-          🏆 Best Paper Honorable Mention
-        </p> : null}
+        {paper.honor.length !== 0 ? <p className="honor"><b>
+          🏆 {paper.honor}
+        </b></p> : null}
         
         <p className="materials">
           {Object.entries(paper.materials).map((entry: [string, string]) => (
