@@ -139,6 +139,12 @@ function Resume () {
     <h3>SELECTED HONORS & AWARDS</h3>
     <div>
       <div className="entry">
+        <span className="time">2025</span>
+        <span className="item">
+          Best Paper, CHI 2025
+        </span>
+      </div>
+      <div className="entry">
         <span className="time">2017-21</span>
         <span className="item">
           Postgraduate Studentship (∼216,300 HKD/yr), Hong Kong Univeristy of Science and Technology
