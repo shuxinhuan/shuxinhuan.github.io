@@ -14,6 +14,8 @@ export const paperList: PAPER[] = [
     "honor": "Best Paper",
     "materials": {
       "Paper": "https://arxiv.org/abs/2502.08076",
+      "Homepage": "https://trajectory-anim.github.io/",
+      "Github": "https://github.com/Trajectory-Anim/Trajectory-Aware-Animated-Transitions"
       // "Video": './pub/patternexplainer.mp4'
     } as MATERIALS
   },
