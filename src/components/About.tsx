@@ -35,10 +35,10 @@ function About () {
         </p>
 
         <p> 
-          My research aims to <span className="hl">empower humans to confidently and critically interact, communicate, and ultimately engage with data through visualization and AI. </span>
           {/* My research aims to <span className="hl">engage humans in interacting with, communicating through, and creatively making use of data through visualization and AI</span>. */}
           {/* My research aims to <span className="hl">engage humans in interacting with the world of data through visualization</span>. */}
-          I focus on designing <span className="hl">expressive visualization techniques</span> and <span className="hl">human-AI interfaces</span> that facilitate a broad spectrum of data activities, such as data transformation, analysis, decision-making, and storytelling, with a strong emphasis on promoting data/AI literacy and creativity for all.
+          My research focus on designing <span className="hl">visualization-empowered human-AI interfaces</span> that facilitate a broad spectrum of data activities, such as data wrangling, analysis, decision-making, and storytelling, with a strong emphasis on promoting data/AI literacy and creativity for everyone. 
+          My vision is to <span className="hl">empower humans to confidently and critically interact, communicate, and ultimately engage with data through visualization and AI. </span>
         </p>
 
         <p>

@@ -60,6 +60,14 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div>
         <div className="news">
+          <span className="time">2025.05</span>
+          <span className="item">I am participating as a visiting scholar in a <a href='https://elliit.se/news-and-events/focus-period-linkoping-2025/visiting-scholars/' className="text-hl" target='_blank'>three-week focus period event on Visualization-Empowered Human-in-the-Loop Artificial Intelligence </a> in 📍Linköping University (Norrköping Campus), Sweden.</span>
+        </div>
+        <div className="news">
+          <span className="time">2025.04</span>
+          <span className="item">I am attending CHI 2025 in 📍Yokohoma, Japan, chairing the <a href='https://programs.sigchi.org/chi/2025/program/session/195132' className="text-hl" target='_blank'>Storytelling and Sense-Making session</a> and helping <a href='https://programs.sigchi.org/chi/2025/program/content/188457' className="text-hl" target='_blank'>our paper presentation</a>. Happy to grab a coffee! </span>
+        </div>
+        <div className="news">
           <span className="time">2025.04</span>
           <span className="item">I am hosting <a className="text-hl"  href='https://www.famous-project.eu/workshop' target='_blank'>a visualization workshop on Fake Activity Shops (FAS)</a> in 📍Luxembourg. Great to see FAMOUS project collaborators! </span>
         </div>

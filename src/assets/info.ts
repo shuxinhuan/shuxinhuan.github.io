@@ -11,7 +11,7 @@ export const paperList: PAPER[] = [
     "year": 2025,
     "abbr": "CHI'25",
     "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2025",
-    "honor": "Best Paper (top 1% in 5,014 submissions)",
+    "honor": "Best Paper (50 in 5,014 submissions, top 1%)",
     "materials": {
       "Paper": "https://arxiv.org/abs/2502.08076",
       "Homepage": "https://trajectory-anim.github.io/",
