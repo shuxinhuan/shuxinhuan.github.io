@@ -60,8 +60,12 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div>
         <div className="news">
+          <span className="time">2025.06</span>
+          <span className="item">I will give an invited talk on the <a href='https://www.eventbrite.co.uk/e/one-day-forum-loneliness-and-social-isolation-tickets-1363189108319?aff=oddtdtcreator' className="text-hl" target='_blank'>ESRC-funded Innovation Forum about Loneliness and Social Isolation </a> in 📍Business School, Newcastle University.</span>
+        </div>
+        <div className="news">
           <span className="time">2025.05</span>
-          <span className="item">I am participating as a visiting scholar in a <a href='https://elliit.se/news-and-events/focus-period-linkoping-2025/visiting-scholars/' className="text-hl" target='_blank'>three-week focus period event on Visualization-Empowered Human-in-the-Loop Artificial Intelligence </a> in 📍Linköping University (Norrköping Campus), Sweden.</span>
+          <span className="item">I am participating as a visiting scholar and giving an invited talk in a three-week focus period event on <a href='https://elliit.se/news-and-events/focus-period-linkoping-2025/visiting-scholars/' className="text-hl" target='_blank'>Visualization-Empowered Human-in-the-Loop Artificial Intelligence </a> in 📍Linköping University (Norrköping Campus), Sweden.</span>
         </div>
         <div className="news">
           <span className="time">2025.04</span>
@@ -69,11 +73,11 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.04</span>
-          <span className="item">I am hosting <a className="text-hl"  href='https://www.famous-project.eu/workshop' target='_blank'>a visualization workshop on Fake Activity Shops (FAS)</a> in 📍Luxembourg. Great to see FAMOUS project collaborators! </span>
+          <span className="item"><a href="https://trajectory-anim.github.io/" className="text-hl" target='_blank'>"RouteFlow: Trajectory-Aware Animated Transitions"</a> got the 🏆 <b>Best Paper</b> award in CHI 2025. Congratulations to all the co-authors!</span>
         </div>
         <div className="news">
-          <span className="time">2025.03</span>
-          <span className="item"><em>"RouteFlow: Trajectory-Aware Animated Transitions"</em> got the 🏆 <b>Best Paper</b> award in CHI 2025. Congratulations to all the co-authors!</span>
+          <span className="time">2025.04</span>
+          <span className="item">I am hosting <a className="text-hl" href='https://www.famous-project.eu/workshop' target='_blank'>a visualization workshop on Fake Activity Shops (FAS)</a> in 📍Luxembourg. Great to see FAMOUS project collaborators! </span>
         </div>
         <div className="news">
           <span className="time">2025.02</span>
