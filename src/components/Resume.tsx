@@ -273,9 +273,17 @@ function Resume () {
       <div className="entry">
         <span className="time">PhD</span>
         <span className="item">
-            <span className="cv-hl">Xin Shu</span>, PhD student at Newcastle University
+            <a className="cv-hl" href='https://www.xinshu.info'>Xin Shu</a>, PhD student at Newcastle University
           <br />
           <em>AI-assisted instrument learning</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+            <span className="cv-hl">Yan (Quinne) Lin</span>, PhD student at Newcastle University
+          <br />
+          <em></em>
         </span>
       </div>
     </div>
