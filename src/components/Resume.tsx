@@ -278,14 +278,6 @@ function Resume () {
           <em>AI-assisted instrument learning</em>
         </span>
       </div>
-      <div className="entry">
-        <span className="time"></span>
-        <span className="item">
-            <span className="cv-hl">Yan (Quinne) Lin</span>, PhD student at Newcastle University
-          <br />
-          <em></em>
-        </span>
-      </div>
     </div>
 
     <h4>Mentoring</h4>
