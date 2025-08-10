@@ -60,6 +60,14 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div>
         <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts</em></a> got accepted by <b>ACM UIST 2025</b>. Congratulations to all the co-authors! 🎉</span>
+        </div>
+        <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">Our paper <a className="text-hl" href="https://arxiv.org/abs/2507.17734" target='_blank'><em>DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models</em></a> got accepted by <b>IEEE VIS 2025</b>. Congratulations to all the co-authors! 🎉</span>
+        </div>
+        <div className="news">
           <span className="time">2025.06</span>
           <span className="item">I will give an invited talk on the <a href='https://www.eventbrite.co.uk/e/one-day-forum-loneliness-and-social-isolation-tickets-1363189108319?aff=oddtdtcreator' className="text-hl" target='_blank'>ESRC-funded Innovation Forum about Loneliness and Social Isolation </a> in 📍Business School, Newcastle University.</span>
         </div>
@@ -73,7 +81,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.04</span>
-          <span className="item"><a href="https://trajectory-anim.github.io/" className="text-hl" target='_blank'>"RouteFlow: Trajectory-Aware Animated Transitions"</a> got the 🏆 <b>Best Paper</b> award in CHI 2025. Congratulations to all the co-authors!</span>
+          <span className="item"><a href="https://trajectory-anim.github.io/" className="text-hl" target='_blank'>RouteFlow: Trajectory-Aware Animated Transitions</a> got the 🏆 <b>Best Paper</b> award in CHI 2025. Congratulations to all the co-authors!</span>
         </div>
         <div className="news">
           <span className="time">2025.04</span>

@@ -2,6 +2,54 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["story"],
+    "thumb": "./pub/datasway.gif",
+    "title": "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination",
+    "authorsA": "Liwenhan Xie, Jiayi Zhou, Anyi Rao, Huamin Qu, ",
+    "authorsB": "",
+    "type": "Other",
+    "year": 2025,
+    "abbr": "ArXiv",
+    "full": "ArXiv, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "https://www.arxiv.org/abs/2507.22051",
+      "Corpus": "https://datasway.notion.site/",
+      "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s'
+    } as MATERIALS
+  },
+  {
+    "category": ["story", "selected"],
+    "thumb": "./pub/datawink.png",
+    "title": "DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models",
+    "authorsA": "Liwenhan Xie, Yanna Lin, Can Liu, Huamin Qu, ",
+    "authorsB": "",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "VIS'25",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/abs/2507.17734",
+      "Video": 'https://www.youtube.com/watch?v=hSWl-XKrv88'
+    } as MATERIALS
+  },
+  {
+    "category": ["transform", "selected"],
+    "thumb": "./pub/viseGPT.png",
+    "title": "ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts",
+    "authorsA": "Jiajun Zhu, Xinyu Cheng, Zhongsu Luo, Yunfan Zhou, ",
+    "authorsB": ", Di Weng, Yingcai Wu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "UIST'25",
+    "full": "Proceedings of ACM Symposium on User Interface Software and Technology, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/abs/2508.01279",
+    } as MATERIALS
+  },
+  {
     "category": ["story", "selected"],
     "thumb": "./pub/routeflow.png",
     "title": "RouteFlow: Trajectory-Aware Animated Transitions",
@@ -52,7 +100,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story", 'literacy', 'selected'],
+    "category": ["story", 'literacy'],
     "thumb": "./pub/visatlas.png",
     "title": "Visualization Atlases: Explaining and Exploring Complex Topics through Data, Visualization, and Narration",
     "authorsA": "Jinrui Wang, ",
@@ -68,7 +116,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["transform", 'vis+ai', 'selected'],
+    "category": ["transform", 'vis+ai'],
     "thumb": "./pub/ferry.png",
     "title": "Ferry: Toward Better Understanding of Input/Output Space for Data Wrangling Scripts",
     "authorsA": "Zhongsu Luo, Kai Xiong, Jiajun Zhu, Ran Chen, ",
@@ -132,7 +180,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["transform", 'selected'],
+    "category": ["transform"],
     "thumb": "./pub/table-illustrator.png",
     "title": "Table Illustrator: Puzzle-based Interactive Authoring of Plain Tables",
     "authorsA": "Yanwei Huang, Yurun Yang, ",
@@ -150,7 +198,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vis+ai", "transform", 'selected'],
+    "category": ["vis+ai", "transform"],
     "thumb": "./pub/NL2Rigel.png",
     "title": "Interactive Table Synthesis with Natural Language",
     "authorsA": "Yanwei Huang, Yunfan Zhou, Ran Chen, Changhao Pan, ",
@@ -181,7 +229,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story", 'selected'],
+    "category": ["story"],
     "thumb": "./pub/emordle.gif",
     "title": "Creating Emordle: Animating Word Cloud for Emotion Expression",
     "authorsA": "Liwenhan Xie, ",
