@@ -60,6 +60,14 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div>
         <div className="news">
+          <span className="time">2025.08</span>
+          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/committees-and-organization/" target="_blank">Education Papers Co-chair</a>👩‍⚖️ for EuroVis 2026.</span>
+        </div>
+        <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">I give an invited talk about about <em>Human-AI Collaboration for Visualization-empowered Data Tasks</em> at 📍ZJU Visulization Summer School.</span>
+        </div>
+        <div className="news">
           <span className="time">2025.07</span>
           <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts</em></a> got accepted by <b>ACM UIST 2025</b>. Congratulations to all the co-authors! 🎉</span>
         </div>

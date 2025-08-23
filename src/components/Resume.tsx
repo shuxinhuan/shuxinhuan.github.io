@@ -179,10 +179,17 @@ function Resume () {
   <h3>GRANTS</h3>
   <div>
     <div className="entry">
+      <span className="time">2025</span>
+      <span className="item">
+          <span>Leverage GenAI and Graphical Models and Reasoning to Innovate for Scientific Discovery</span><br/>
+          £217k, a 2-year KTP project with P&G.
+      </span>
+    </div>
+    <div className="entry">
       <span className="time">2024</span>
       <span className="item">
           <a href='https://gulbenkian.pt/emifund/news/2024-call-for-proposals-results/' target='_blank'>FAMOUS: Fake Activity Market Observation System of Unethical Services</a> (Co-I)<br/>
-          €400k, funded by European Media and Information Fund
+          €400k, funded by European Media and Information Fund.
       </span>
     </div>
   </div>
@@ -416,9 +423,9 @@ function Resume () {
     <h4>Organizing Committees</h4>
     <div>
       <div className="entry">
-        <span className="time">2022-</span>
+        <span className="time">2025</span>
         <span className="item">
-          <span className='cv-hl'>Co-Organizer</span>, <a href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Edinburgh Data Visualisation Meetup</a>
+            <span className='cv-hl'>Paper Co-Chair (Education Track)</span>, <a href="https://eurovis.org.uk/committees-and-organization/" target='_blank'>EuroVis 2026</a>
         </span>
       </div>
       <div className="entry">
@@ -431,6 +438,12 @@ function Resume () {
         <span className="time">2023</span>
         <span className="item">
             <span className='cv-hl'>Student Volunteer Chair</span>, <a href='https://informationplusconference.com/2023/' target='_blank'>Information+ Conference</a>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2022-</span>
+        <span className="item">
+          <span className='cv-hl'>Co-Organizer</span>, <a href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Edinburgh Data Visualisation Meetup</a>
         </span>
       </div>
     </div>
@@ -447,7 +460,7 @@ function Resume () {
       <div className="entry">
         <span className="time">HCI</span>
         <span className="item">
-          <span className='cv-hl'>CHI</span> full paper track 2024-25
+          <span className='cv-hl'>CHI</span> full paper track 2024-26
         </span>
       </div>
     </div>
