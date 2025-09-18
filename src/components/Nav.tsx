@@ -19,7 +19,7 @@ function Nav(props: Props) {
     {
       key: '2',
       href: '#publication',
-      title: <span className="anchorItem" onClick={() => props.setComp('home')}>Publication</span>,
+      title: <span className="anchorItem" onClick={() => props.setComp('publication')}>Publication</span>,
     },
     {
       key: '3',
@@ -55,7 +55,7 @@ function Nav(props: Props) {
     },
     {
       key: '2',
-      label: <a href='#publication' onClick={() => props.setComp('home')}>Publication</a>
+      label: <a href='#publication' onClick={() => props.setComp('publication')}>Publication</a>
     },
     {
       key: '3',

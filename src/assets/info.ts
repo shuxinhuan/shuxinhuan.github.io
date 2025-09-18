@@ -2,24 +2,26 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
-    "category": ["story"],
+    "category": ["story", "vis+ai"],
     "thumb": "./pub/datasway.gif",
     "title": "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination",
     "authorsA": "Liwenhan Xie, Jiayi Zhou, Anyi Rao, Huamin Qu, ",
     "authorsB": "",
     "type": "Other",
     "year": 2025,
-    "abbr": "ArXiv",
-    "full": "ArXiv, 2025",
+    "abbr": "arXiv",
+    "full": "arXiv, 2025",
     "honor": "",
     "materials": {
-      "Paper": "https://www.arxiv.org/abs/2507.22051",
+      "Paper": "https://www.arxiv.org/pdf/2507.22051",
+      "Homepage": "https://shellywhen.github.io/projects/DataSway",
+      "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s',
+      "Demo": "https://shellywhen.github.io/datasway/",
       "Corpus": "https://datasway.notion.site/",
-      "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s'
     } as MATERIALS
   },
   {
-    "category": ["story", "selected"],
+    "category": ["story", "vis+ai", "selected"],
     "thumb": "./pub/datawink.png",
     "title": "DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models",
     "authorsA": "Liwenhan Xie, Yanna Lin, Can Liu, Huamin Qu, ",
@@ -31,11 +33,12 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "https://arxiv.org/abs/2507.17734",
-      "Video": 'https://www.youtube.com/watch?v=hSWl-XKrv88'
+      "Homepage": "https://shellywhen.github.io/projects/DataWink",
+      "Video": 'https://www.youtube.com/watch?v=hSWl-XKrv88',
     } as MATERIALS
   },
   {
-    "category": ["transform", "selected"],
+    "category": ["transform", "vis+ai", "selected"],
     "thumb": "./pub/viseGPT.png",
     "title": "ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts",
     "authorsA": "Jiajun Zhu, Xinyu Cheng, Zhongsu Luo, Yunfan Zhou, ",
@@ -46,7 +49,7 @@ export const paperList: PAPER[] = [
     "full": "Proceedings of ACM Symposium on User Interface Software and Technology, 2025",
     "honor": "",
     "materials": {
-      "Paper": "https://arxiv.org/abs/2508.01279",
+      "Paper": "https://arxiv.org/pdf/2508.01279",
     } as MATERIALS
   },
   {
@@ -61,10 +64,10 @@ export const paperList: PAPER[] = [
     "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2025",
     "honor": "Best Paper (50 of 5,014 submissions, top 1%)",
     "materials": {
-      "Paper": "https://arxiv.org/abs/2502.08076",
+      "Paper": "https://arxiv.org/pdf/2502.08076",
       "Homepage": "https://trajectory-anim.github.io/",
-      "Github": "https://github.com/Trajectory-Anim/Trajectory-Aware-Animated-Transitions"
-      // "Video": './pub/patternexplainer.mp4'
+      "Code": "https://github.com/Trajectory-Anim/Trajectory-Aware-Animated-Transitions",
+      "DOI": "https://doi.org/10.1145/3706598.3714300",
     } as MATERIALS
   },
   {
@@ -79,8 +82,8 @@ export const paperList: PAPER[] = [
     "full": "Proceedings of International Conference on Intelligent User Interfaces, 2025",
     "honor": "",
     "materials": {
-      "Paper": "https://dl.acm.org/doi/full/10.1145/3708359.3712080",
-      // "Video": './pub/patternexplainer.mp4'
+      "Paper":"./pub/FretMate.pdf",
+      "DOI": "https://dl.acm.org/doi/full/10.1145/3708359.3712080",
     } as MATERIALS
   },
   {
@@ -96,7 +99,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "https://arxiv.org/pdf/2408.01272",
-      "Video": './pub/patternexplainer.mp4'
+      "Video": './pub/patternexplainer.mp4',
+      "DOI": "https://doi.org/10.1109/TVCG.2024.3456192",
     } as MATERIALS
   },
   {
@@ -112,7 +116,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "https://arxiv.org/pdf/2408.07483",
-      "Homepage": "https://vis-atlas.github.io/"
+      "Homepage": "https://vis-atlas.github.io/",
+      "DOI": "https://doi.org/10.1109/TVCG.2024.3456311",
     } as MATERIALS
   },
   {
@@ -127,7 +132,8 @@ export const paperList: PAPER[] = [
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
     "honor": "",
     "materials": {
-      "Paper": "https://ieeexplore.ieee.org/document/10670464",
+      "Paper": "./pub/ferry.pdf",
+      "DOI": "https://doi.org/10.1109/TVCG.2024.3456328",
     } as MATERIALS
   },
   {
@@ -143,6 +149,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/PoP.pdf",
+      "Video": "./pub/pop.mp4",
+      "DOI": "https://doi.org/10.1109/VISAP64569.2024.00007",
     } as MATERIALS
   },
   {
@@ -157,10 +165,10 @@ export const paperList: PAPER[] = [
     "full": "ACM SIGGRAPH Art Gallery, 2024",
     "honor": "",
     "materials": {
-      "Paper": "https://dl.acm.org/doi/pdf/10.1145/3641523.3669939",
-      "Appendix": "https://osf.io/kjtrb/",
+      "Paper": "https://osf.io/6jm9x",
       "Video": "https://osf.io/6xhfj",
-      "Exhibition": "https://s2024.conference-program.org/presentation/?id=artg_205&sess=sess284"
+      "Appendix": "https://osf.io/kjtrb/",
+      "DOI": "https://dl.acm.org/doi/abs/10.1145/3641523.3669939",
     } as MATERIALS
   },
   {
@@ -176,7 +184,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "https://arxiv.org/pdf/2308.04040",
-      "Homepage": "https://datavideos.github.io/WonderFlow/#/homepage"
+      "Homepage": "https://datavideos.github.io/WonderFlow/#/homepage",
+      "DOI": "https://doi.org/10.1109/TVCG.2024.3411575",
     } as MATERIALS
   },
   {
@@ -194,7 +203,8 @@ export const paperList: PAPER[] = [
       "Paper": "./pub/chi24_Table_Illustrator.pdf",
       "Video": "https://www.youtube.com/watch?v=OrFKL5-Fc1Y",
       "Demo": "https://yhuang.top/tableshop/",
-      "Github": "https://github.com/Ais0n/tableshop"
+      "Code": "https://github.com/Ais0n/tableshop",
+      "DOI": "https://doi.org/10.1145/3613904.3642415",
     } as MATERIALS
   },
   {
@@ -209,7 +219,9 @@ export const paperList: PAPER[] = [
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2023",
     "honor": "",
     "materials": {
-      "Paper": "https://ieeexplore.ieee.org/document/10304286"
+      "Paper": "./pub/nl2rigel.pdf",
+      "Video": "https://www.youtube.com/watch?v=qjjKAykyDZU",
+      "DOI": "https://doi.org/10.1109/TVCG.2023.3329120",
     } as MATERIALS
   },
   {
@@ -226,6 +238,10 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pub/island.pdf",
       "Video": "./pub/island.mp4",
+      "Appendix": "https://osf.io/3kt8d/",
+      "Exhibition": "https://visap.net/2023/contributions/posts-with-no-response-the-island-of-loneliness/",
+      "Blog": "https://library.hkust.edu.hk/sc/the-island-of-loneliness-china-visap/",
+      "DOI": "https://doi.org/10.1109/VISAP60414.2023.00007"
     } as MATERIALS
   },
   {
@@ -241,7 +257,10 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "https://arxiv.org/pdf/2306.07560.pdf",
+      "Homepage": "https://shellywhen.github.io/projects/emordle",
       "Demo": "https://shellywhen.github.io/EmotionalWordle/#/",
+      "Corpus": "https://drive.google.com/drive/folders/1RUOj6fBNlq6nFDGeHAbZn7zayHtnJkuY",
+      "DOI": "https://doi.org/10.1109/TVCG.2023.3286392",
     } as MATERIALS
   },
   {
@@ -256,7 +275,8 @@ export const paperList: PAPER[] = [
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2022",
     "honor": "",
     "materials": {
-      "Paper": "https://arxiv.org/abs/2209.05739",
+      "Paper": "https://arxiv.org/pdf/2209.05739",
+      "DOI": "https://doi.org/10.1109/TVCG.2022.3209447",
     } as MATERIALS
   },
   {
@@ -276,6 +296,7 @@ export const paperList: PAPER[] = [
       "Github": "https://github.com/rigel-js",
       "Video": "https://www.youtube.com/watch?v=fvM_W-1n7N4",
       "Appendix": "https://observablehq.com/@rigel/appendix",
+      "DOI":"https://doi.org/10.1109/TVCG.2022.3209385"
     } as MATERIALS
   },
   {
@@ -291,7 +312,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/visimages.pdf",
-      "Homepage": "https://visimages.github.io/"
+      "Homepage": "https://visimages.github.io/",
+      "DOI": "https://doi.org/10.1109/TVCG.2022.3155440"
     } as MATERIALS
   },
   {
@@ -306,7 +328,8 @@ export const paperList: PAPER[] = [
     "full": "Journal of Visualization, 2021",
     "honor": "",
     "materials": {
-      "Paper": "./pub/rallycomparator.pdf"
+      "Paper": "./pub/rallycomparator.pdf",
+      "DOI": "https://doi.org/10.1007/s12650-021-00772-0"
     } as MATERIALS
   },
   {
@@ -322,7 +345,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/ai4vis.pdf",
-      "Homepage": "http://ai4vis.github.io"
+      "Homepage": "http://ai4vis.github.io",
+      "DOI": "https://doi.org/10.1109/TVCG.2021.3099002"
     } as MATERIALS
   },
   {
@@ -338,6 +362,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/tacValuer.pdf",
+      "DOI": "https://doi.org/10.1145/3447548.3467104"
     } as MATERIALS
   },
   {
@@ -353,7 +378,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/nebula.pdf",
-      "Homepage": "https://nebula-vis.github.io/examples"
+      "Homepage": "https://nebula-vis.github.io/examples",
+      "DOI": "https://doi.org/10.1109/TVCG.2021.3076222"
     } as MATERIALS
   }, 
   {
@@ -369,7 +395,8 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/careerflow.pdf",
-      "Video": "./pub/careerflow.mp4"
+      "Video": "./pub/careerflow.mp4",
+      "DOI": "https://doi.org/10.1109/TVCG.2021.3067200"
     } as MATERIALS
   },
   {
@@ -384,9 +411,10 @@ export const paperList: PAPER[] = [
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2020",
     "honor": "",
     "materials": {
-      "Paper": "http://arxiv.org/abs/2008.07227",
+      "Paper": "http://arxiv.org/pdf/2008.07227",
       "Video": "https://youtu.be/PFLrrK_4jj0",
-      "Homepage": "https://data-gifs.github.io/"
+      "Homepage": "https://data-gifs.github.io/",
+      "DOI": "https://doi.org/10.1109/TVCG.2020.3030396"
     } as MATERIALS
   },
   {
@@ -401,7 +429,10 @@ export const paperList: PAPER[] = [
     "full": "IEEE VIS Conference Short Paper, 2020",
     "honor": "",
     "materials": {
-      "Paper": "https://arxiv.org/abs/2009.05233",
+      "Paper": "https://arxiv.org/pdf/2009.05233",
+      "Homepage": "https://narrativetransitions.github.io/home/",
+      "Video": "https://www.youtube.com/watch?v=RNFCuR9DgMg",
+      "DOI": "https://doi.org/10.1109/VIS47514.2020.00037"
     } as MATERIALS
   },
   {
@@ -418,7 +449,8 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pub/dancingwords.pdf",
       "Video": "./pub/dancingwords.mp4",
-      "Homepage": "http://dancingwords.github.io/"
+      "Homepage": "http://dancingwords.github.io/",
+      "DOI": "https://doi.org/10.1007/s12650-020-00689-0"
     } as MATERIALS
   },
   {
@@ -434,6 +466,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/EmotionCues.pdf",
+      "DOI": "https://doi.org/10.1109/TVCG.2019.2963659",
     } as MATERIALS
   },
   {
@@ -465,6 +498,7 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pub/BitExTract.pdf",
       "Video": "https://www.youtube.com/watch?v=gVgO03qRAlI",
+      "DOI": "https://doi.org/10.1109/TVCG.2018.2864814"
     } as MATERIALS
   },
   {
@@ -481,6 +515,7 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pub/iTTVis.pdf",
       "Video": "./pub/iTTVis.mp4",
+      "DOI": "https://doi.org/10.1109/TVCG.2017.2744218"
     } as MATERIALS
   },
 ]

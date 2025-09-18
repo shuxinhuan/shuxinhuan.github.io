@@ -13,6 +13,10 @@
   }
 }
 
+#publication {
+  padding-top: 110px;
+}
+
 #publication .tag {
   background-color: rgb(244, 244, 244);
   display: inline;
@@ -64,7 +68,7 @@
 .title {
   font-weight: 600;
   font-size: 18px;
-  color: rgba(202, 102, 44, 0.8);
+  color: rgba(202, 102, 44, 0.7);
 }
 
 .title:hover {
@@ -75,7 +79,7 @@
 
 .author-list {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .author-list .me {
@@ -90,23 +94,25 @@
 }
 
 .honor {
-  color: #f9a825;
+  color: rgb(249, 168, 37);
   font-size: 16px;
   font-weight: 500;
 }
 
 .abbr {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
+  color: #fff;
   margin-right: 8px;
-  padding: 0px 3px;
-  border: 1px solid #aaa;
-  border-radius: 6px;
+  padding: 0px 5px;
+  border: 0px solid #aaa;
+  border-radius: 3px;
+  background-color: rgba(249, 168, 37, 0.65);
 }
 
 .full {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .materials {
@@ -115,15 +121,24 @@
   justify-content: center;
 }
 
-.material::before {
-  content: '[';
-    color: #444;
-    font-weight: 300;
-    margin-right: 4px;
-}
 .material::after {
+  content: '|';
+  color: #444;
+  font-weight: 300;
+  margin: 0px 8px;
+}
+
+.material:first-of-type::before {
+  content: '[';
+  color: #444;
+  font-weight: 300;
+  margin-right: 4px;
+}
+
+.material:last-of-type::after {
   content: ']';
   color: #444;
   font-weight: 300;
   margin: 0px 15px 0px 4px;
 }
+

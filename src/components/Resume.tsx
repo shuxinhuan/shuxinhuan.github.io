@@ -30,7 +30,7 @@ function Resume () {
           <span className="item">
             <span className='cv-hl'>Newcastle Univeristy</span>, Newcastle Upon Tyne, UK <br /> 
             <em>Lecturer (Assistant Professor), School of Computing</em> <br /> 
-            <em>Deputy Program Director for Data Science MSc Degree Program</em>
+            <em>Director for Data Science with Visualization MSc Program</em>
           </span>
         </div>
         <div className="entry">
@@ -355,6 +355,20 @@ function Resume () {
     <h3 id="talks">INVITED TALKS AND OUTREACH</h3>
     <div>
       <div className="entry">
+        <span className="time">2025</span>
+        <span className="item">
+          <span className='cv-hl'>Human-AI Collaboration for Visualization-empowered Data Tasks</span><br />
+            <em>ZJU Summer School, Hangzhou, China (2025.07)</em>
+        </span>
+      </div>
+        <div className="entry">
+          <span className="time"></span>
+          <span className="item">
+            <span className='cv-hl'>From Data to Dialogue: How AI and Visualization Empower Human Engagement with Data</span><br />
+            <em>ELLIIT: Visualization-Empowered Human-in-the-Loop Artificial Intelligence, Norrköping, Sweden (2025.05)</em>
+          </span>
+        </div>
+      <div className="entry">
         <span className="time">2024</span>
         <span className="item">
           <span className='cv-hl'>Interactive Pattern Explanation for Network Visualization</span><br />
@@ -453,7 +467,7 @@ function Resume () {
         <span className="time">VIS</span>
         <span className="item">
           <span className='cv-hl'>VIS</span> full paper track 2025, short paper track 2022-24, <br/>
-            <span className='cv-hl'>PacificVis</span> TVCG track 2025, VisNotes 2024, <br />
+            <span className='cv-hl'>PacificVis</span> TVCG track 2025-26, VisNotes 2024, <br />
             <span className='cv-hl'>ChinaVis</span> full paper track 2022-24
         </span>
       </div>
@@ -470,13 +484,13 @@ function Resume () {
       <div className="entry">
         <span className="time">VIS</span>
         <span className="item">
-          <span className='cv-hl'>VIS</span> 2021-24, <span className='cv-hl'>TVCG</span> 2022-24, <span className='cv-hl'>EuroVis</span> 2020-23, <span className='cv-hl'>PacificVis</span> 2021-23, <span className='cv-hl'>ChinaVis</span> 2021-24,  <span className='cv-hl'>VI</span> 2024
+          <span className='cv-hl'>VIS</span> 2021-25, <span className='cv-hl'>TVCG</span> 2022-25, <span className='cv-hl'>EuroVis</span> 2020-26, <span className='cv-hl'>PacificVis</span> 2021-26, <span className='cv-hl'>ChinaVis</span> 2021-24,  <span className='cv-hl'>VI</span> 2024
         </span>
       </div>
       <div className="entry">
         <span className="time">HCI</span>
         <span className="item">
-          <span className='cv-hl'>CHI</span> 2021-24, <span className='cv-hl'>CSCW</span> 2023
+          <span className='cv-hl'>CHI</span> 2021-26, <span className='cv-hl'>CSCW</span> 2023
         </span>
       </div>
     </div>

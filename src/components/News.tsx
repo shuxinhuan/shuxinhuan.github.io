@@ -49,7 +49,7 @@ function News () {
       <div className="content">
         <div className="news">
           <span className="time">Pinned 📌</span>
-          <span className="item">I am actively seeking <b>motivated students</b> to join the group! See <a className="text-hl" target='_blank' href='https://shuxinhuan.github.io/#prospectives'>working with me</a> for more information.
+          <span className="item">I am actively seeking <b>motivated students</b> to join the group! See <a className="text-hl" href='https://shuxinhuan.github.io/#prospectives'>working with me</a> for more information.
           {/* See <a className="text-hl" href="./img/projects.pdf" target='_blank'>my project introduction</a> for more information. */}
           
           {/* <Link to={`./#prospectives`}>xxx</Link> */}
@@ -69,11 +69,11 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.07</span>
-          <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts</em></a> got accepted by <b>ACM UIST 2025</b>. Congratulations to all the co-authors! 🎉</span>
+          <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT</em></a> got accepted by <b>ACM UIST 2025</b>. Congratulations to Jiajun and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.07</span>
-          <span className="item">Our paper <a className="text-hl" href="https://arxiv.org/abs/2507.17734" target='_blank'><em>DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models</em></a> got accepted by <b>IEEE VIS 2025</b>. Congratulations to all the co-authors! 🎉</span>
+          <span className="item">Our paper <a className="text-hl" href="https://arxiv.org/abs/2507.17734" target='_blank'><em>DataWink</em></a> got accepted by <b>IEEE VIS 2025</b>. Congratulations to Liwenhan and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.06</span>

@@ -1,4 +1,3 @@
-import { Divider } from "antd"
 import { useState } from "react"
 import { paperList } from "../assets/info.ts"
 import { PAPER, paperCategory } from '../typings/types'
@@ -9,7 +8,7 @@ interface ITEM {
   key: paperCategory | 'all';
 }
 
-function Publication () {
+function Publication() {
   const [current, setCurrent] = useState<string>('selected')
 
   const items: ITEM[] = [
@@ -52,7 +51,6 @@ function Publication () {
   ]
 
   const onClick = (e: any) => {
-    console.log(e)
     setCurrent(e.key)
   }
 
@@ -66,30 +64,28 @@ function Publication () {
 
   return (
     <div id="publication">
-      <Divider />
-      <div className="sec-title"><span className="bg-hl">Research</span></div>
-      <div style={{marginTop: '1rem'}}>
+      <div style={{ marginTop: '10px' }}>
         {items.map((item: ITEM) => {
           return (
             <button
-              key={item.key} 
-              className={`tag ${item.key===current ? 'tag-active': ''}`} 
+              key={item.key}
+              className={`tag ${item.key === current ? 'tag-active' : ''}`}
               onClick={() => onClick(item)}
             >
-                {item.label}
+              {item.label}
             </button>)
         })}
       </div>
 
       <div className="paper-list">
-        {getPaperList(current).map((paper: PAPER) => 
+        {getPaperList(current).map((paper: PAPER) =>
           <Paper
             key={paper.title}
             selected={paper}
           />
         )}
       </div>
-  </div>
+    </div>
   )
 }
 
