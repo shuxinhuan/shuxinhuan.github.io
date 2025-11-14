@@ -10,6 +10,7 @@ interface Props {
 
 function Nav(props: Props) {
   const [screen, setScreen] = useState(window.innerWidth)
+  // for desktop version
   const anchorItems = [
     {
       key: '1',
@@ -48,6 +49,7 @@ function Nav(props: Props) {
     }
   ]
 
+  // for mobile dropdown menu
   const items: MenuProps['items'] = [
     {
       key: '1',
@@ -55,7 +57,7 @@ function Nav(props: Props) {
     },
     {
       key: '2',
-      label: <a href='#publication' onClick={() => props.setComp('publication')}>Publication</a>
+      label: <a href='#publication-list' onClick={() => props.setComp('publication-list')}>Publication</a>
     },
     {
       key: '3',

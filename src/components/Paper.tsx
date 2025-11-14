@@ -4,7 +4,8 @@ import './Publication.css'
 import { FilePdfOutlined, HomeOutlined, VideoCameraOutlined, GlobalOutlined, GithubOutlined, SnippetsOutlined, BookOutlined, LinkOutlined, ShakeOutlined } from '@ant-design/icons';
 
 interface Props {
-  selected: PAPER
+  selected: PAPER,
+  style?: React.CSSProperties
 }
 
 function Paper (props: Props) {
@@ -32,11 +33,11 @@ function Paper (props: Props) {
   }
 
   return (
-    <Row className="paper">
-      <Col span={5} className="thumb">
+    <Row className="paper" style={props.style}>
+      <Col span={7} className="thumb">
         <img src={`/${paper.thumb}`} alt="" />
       </Col>
-      <Col span={19} className="info">
+      <Col span={17} className="info">
         <p><a href={paper.materials.Paper} target="_blank" className="title">{paper.title}</a></p>
         <p className="author-list">
           <span className="authors">{paper.authorsA}</span>

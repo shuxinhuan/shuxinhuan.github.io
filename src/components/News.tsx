@@ -55,9 +55,17 @@ function News () {
           {/* <Link to={`./#prospectives`}>xxx</Link> */}
           </span>
         </div>
-        <div className="news">
+        {/* <div className="news">
           <span className="time">Pinned 📌</span>
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
+        </div> */}
+        <div className="news">
+          <span className="time">2025.11</span>
+          <span className="item">I'm attending IEEE VIS 2025 in 📍Vienna, Austria. Open to grab a coffee and chat!</span>
+        </div>
+        <div className="news">
+          <span className="time">2025.10</span>
+          <span className="item">I give a talk about <em>Empowering Communication and Exploration of Visualizations with AI</em> at 📍Inria Bordeaux, France.</span>
         </div>
         <div className="news">
           <span className="time">2025.08</span>
@@ -65,15 +73,15 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.07</span>
-          <span className="item">I give an invited talk about about <em>Human-AI Collaboration for Visualization-empowered Data Tasks</em> at 📍ZJU Visulization Summer School.</span>
+          <span className="item">I give a talk about about <em>Human-AI Collaboration for Visualization-empowered Data Tasks</em> at 📍ZJU Visulization Summer School.</span>
+        </div>
+        <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">Our paper <a className="text-hl" href="https://shellywhen.github.io/projects/DataWink" target='_blank'><em>DataWink</em></a> got accepted by <b>IEEE VIS 2025</b>. Congratulations to Liwenhan and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.07</span>
           <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT</em></a> got accepted by <b>ACM UIST 2025</b>. Congratulations to Jiajun and all the co-authors! 🎉</span>
-        </div>
-        <div className="news">
-          <span className="time">2025.07</span>
-          <span className="item">Our paper <a className="text-hl" href="https://arxiv.org/abs/2507.17734" target='_blank'><em>DataWink</em></a> got accepted by <b>IEEE VIS 2025</b>. Congratulations to Liwenhan and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.06</span>

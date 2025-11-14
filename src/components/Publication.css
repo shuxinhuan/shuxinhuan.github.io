@@ -17,36 +17,47 @@
   padding-top: 110px;
 }
 
-#publication .tag {
+#publication-list .tag {
   background-color: rgb(244, 244, 244);
   display: inline;
   cursor: pointer;
-  padding: 5px 11px;
-  margin-right: 8px;
-  margin-left: .5px;
-  margin-bottom: 5px;
-  border-radius: 20px;
+  padding: 5px 5px;
+  margin-right: 5px;
+  margin-left: .3px;
+  margin-bottom: 3px;
+  border-radius: 8px;
   border: 0px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
-#publication .tag-active {
+#publication-list .tag-active {
   background-color: rgb(221, 221, 221);
   font-weight: 600;
   color: rgb(202, 102, 44)
 }
 
 .paper {
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 
-.paper:not(:last-child) {
+/* .paper::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
   border-bottom: thin solid transparent;
   border-image: linear-gradient(to right, lightgrey, 20%, transparent);
   border-image-slice: 1;
-  border-left: 0;
-  border-top: 0;
-}
+  margin-top: 20px;
+} */
+
+/* .paper:last-of-type::after {
+  display: none;
+} */
+
+/* .paper:first-of-type {
+  padding-top: 0px;
+} */
 
 .thumb {
   padding-right: 30px;
@@ -67,7 +78,7 @@
 
 .title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(202, 102, 44, 0.7);
 }
 
@@ -78,7 +89,7 @@
 }
 
 .author-list {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -95,7 +106,7 @@
 
 .honor {
   color: rgb(249, 168, 37);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -111,7 +122,7 @@
 }
 
 .full {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 

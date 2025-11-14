@@ -36,7 +36,7 @@ function About () {
 
         <p> 
           {/* My research aims to <span className="hl">engage humans in interacting with the world of data through visualization</span>. */}
-          My research focuses on <span className="hl">designing human–AI collaborative visualization systems</span> to democratize how people engage with data.
+          My research focuses on <span className="hl">designing human–AI collaborative systems</span> to democratize how people engage with data through visualization.
           My work facilitates a broad spectrum of data activities, such as data wrangling, analysis, decision-making, and storytelling, with a strong emphasis on promoting data and AI literacy for all.  
           My vision is to <span className="hl">enable everyone to confidently and critically explore, communicate, and act on data and AI</span>.
         </p>
