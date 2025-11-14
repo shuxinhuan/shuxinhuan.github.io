@@ -1,7 +1,7 @@
 import { Row, Col } from "antd"
 import { PAPER } from "../typings/types"
 import './Publication.css'
-import { FilePdfOutlined, HomeOutlined, VideoCameraOutlined, GlobalOutlined, GithubOutlined, SnippetsOutlined, BookOutlined, LinkOutlined, ShakeOutlined } from '@ant-design/icons';
+import { FilePdfOutlined, VideoCameraOutlined, GithubOutlined, SnippetsOutlined, BookOutlined, LinkOutlined, ShakeOutlined } from '@ant-design/icons';
 
 interface Props {
   selected: PAPER,
