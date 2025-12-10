@@ -60,6 +60,14 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div> */}
         <div className="news">
+          <span className="time">2025.12</span>
+          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/committees-and-organization/" target="_blank">Diversity Co-Chair</a>👩‍⚖️ for EuroVis 2026.</span>
+        </div>
+        <div className="news">
+          <span className="time">2025.12</span>
+          <span className="item">Our paper <a href="" className="text-hl" target='_blank'><em>BiasField</em></a> got accepted by <b>IEEE PacificVis (TVCG track) 2025</b>. Congratulations to Zhen and all the co-authors! 🎉</span>
+        </div>
+        <div className="news">
           <span className="time">2025.11</span>
           <span className="item">I'm attending IEEE VIS 2025 in 📍Vienna, Austria. Open to grab a coffee and chat!</span>
         </div>
@@ -69,7 +77,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.08</span>
-          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/committees-and-organization/" target="_blank">Education Papers Co-chair</a>👩‍⚖️ for EuroVis 2026.</span>
+          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/education-papers/" target="_blank">Education Papers Co-chair</a>👩‍⚖️ for EuroVis 2026.</span>
         </div>
         <div className="news">
           <span className="time">2025.07</span>

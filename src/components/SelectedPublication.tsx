@@ -12,13 +12,13 @@ function SelectedPublication () {
       "DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models",
       "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization",
     ],
+    'Human-in-the-loop Trustworthy AI': [
+      "BiasField: Interactive Bias Probing of Machine Learning Datasets",
+      "ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts",
+    ],
     'Interpretable Visual Analytics at Scale': [
       "RouteFlow: Trajectory-Aware Animated Transitions",
       "Does This Have a Particular Meaning? Interactive Pattern Explanation for Network Visualizations",
-    ],
-    'Human-in-the-loop Trustworthy Data Transformation': [
-      "ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts",
-      "Interactive Table Synthesis with Natural Language",
     ],
     "Data-driven Arts": [
       "Loss of Sonnet 18",

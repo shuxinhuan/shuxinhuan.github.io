@@ -2,6 +2,25 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["vis+ai", "va"],
+    "tags": ['VIS4AI', 'Trustworthy AI', 'Visual Analytics'],
+    "thumb": "./pub/biasfield.png",
+    "title": "BiasField: Interactive Bias Probing of Machine Learning Datasets",
+    "authorsA": "Zhen Li, Weikai Yang, ",
+    "authorsB": ", Jiangning Zhu, Hui Zhang, Shixia Liu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "PVIS'25",
+    "full": "IEEE Transactions on Visualization and Computer Graphics",
+    "honor": "",
+    "materials": {
+      "To Appear in PacificVis 2025 TVCG track": "",
+      // "Paper": "https://www.arxiv.org/pdf/2507.22051",
+      // "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s',
+      // "DOI": "https://doi.org/10.1145/3706598.3714300",
+    } as MATERIALS
+  },
+  {
     "category": ["story", "vis+ai"],
     "tags": ['Human-AI Interaction', 'Storytelling', 'Vis Authoring', 'Animation', 'Visual Metaphors', 'AI4VIS'],
     "thumb": "./pub/datasway.gif",
