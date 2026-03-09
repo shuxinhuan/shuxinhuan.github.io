@@ -60,20 +60,28 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div> */}
         <div className="news">
+          <span className="time">2026.03</span>
+          <span className="item">Our paper <em><a href="./pub/metaphor.pdf" className="text-hl" target='_blank'>Unpacking Visual Metaphors in Infographics: A Design Space</a></em> got the 🏆 <b>Best Paper Honorable Mention</b> award in CHI 2026. Congratulations to Yukai and all the co-authors!</span>
+        </div>
+        <div className="news">
+          <span className="time">2026.1</span>
+          <span className="item">Three papers about <a className="text-hl" href="./pub/metaphor.pdf" target='_blank'><em>Visual Metaphors in Infographics</em></a>, <a className="text-hl" href="./pub/fretflow.pdf" target='_blank'><em>Adaptive Haptics for Rhythm and Articulation in Guitar Learning</em></a>, and <a className="text-hl" href="https://care-hci.org/" target='_blank'><em>A Meta-Narrative Review of HCI Research on Care</em></a> were conditionally accepted by ACM CHI 2026. See you in Barcelona 🇪🇸!</span>
+        </div>
+        <div className="news">
           <span className="time">2025.12</span>
           <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/committees-and-organization/" target="_blank">Diversity Co-Chair</a>👩‍⚖️ for EuroVis 2026.</span>
         </div>
         <div className="news">
           <span className="time">2025.12</span>
-          <span className="item">Our paper <a href="" className="text-hl" target='_blank'><em>BiasField</em></a> got accepted by <b>IEEE PacificVis (TVCG track) 2025</b>. Congratulations to Zhen and all the co-authors! 🎉</span>
+          <span className="item">Our paper <a href="./pub/biasfield.pdf" className="text-hl"><em>BiasField: Interactive Bias Probing of Machine Learning Datasets</em></a> got accepted by <b>IEEE PacificVis (TVCG track) 2025</b>. Congratulations to Zhen and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.11</span>
-          <span className="item">I'm attending IEEE VIS 2025 in 📍Vienna, Austria. Open to grab a coffee and chat!</span>
+          <span className="item">I'm attending IEEE VIS 2025 in 📍Vienna, Austria 🇦🇹. Open to grab a coffee and chat!</span>
         </div>
         <div className="news">
           <span className="time">2025.10</span>
-          <span className="item">I give a talk about <em>Empowering Communication and Exploration of Visualizations with AI</em> at 📍Inria Bordeaux, France.</span>
+          <span className="item">I give a talk about <em>Empowering Communication and Exploration of Visualizations with AI</em> at 📍Inria Bordeaux, France 🇫🇷.</span>
         </div>
         <div className="news">
           <span className="time">2025.08</span>

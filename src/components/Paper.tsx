@@ -1,7 +1,7 @@
 import { Row, Col } from "antd"
 import { PAPER } from "../typings/types"
 import './Publication.css'
-import { FilePdfOutlined, VideoCameraOutlined, GithubOutlined, SnippetsOutlined, BookOutlined, LinkOutlined, ShakeOutlined } from '@ant-design/icons';
+import { FilePdfOutlined, VideoCameraOutlined, GithubOutlined, SnippetsOutlined, BookOutlined, LinkOutlined, ShakeOutlined, CloudDownloadOutlined } from '@ant-design/icons';
 
 interface Props {
   selected: PAPER,
@@ -27,6 +27,10 @@ function Paper (props: Props) {
         return <GithubOutlined />
       case 'Appendix':
         return <SnippetsOutlined />
+      case 'Github':
+        return <GithubOutlined />
+      case 'Dataset':
+        return <CloudDownloadOutlined />
       default:
         return <SnippetsOutlined />
     }
@@ -35,7 +39,7 @@ function Paper (props: Props) {
   return (
     <Row className="paper" style={props.style}>
       <Col span={7} className="thumb">
-        <img src={`/${paper.thumb}`} alt="" />
+        <img src={`/${paper.thumb}`} style={{maxHeight: 200}} alt="" />
       </Col>
       <Col span={17} className="info">
         <p><a href={paper.materials.Paper} target="_blank" className="title">{paper.title}</a></p>

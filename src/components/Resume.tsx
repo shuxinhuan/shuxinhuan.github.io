@@ -515,7 +515,7 @@ function Resume () {
       <div className="entry">
         <span className="time">2025</span>
         <span className="item">
-            <span className='cv-hl'>Paper Co-Chair (Education Track)</span>, <a href="https://eurovis.org.uk/committees-and-organization/" target='_blank'>EuroVis 2026</a>
+            <span className='cv-hl'>Paper Co-Chair (Education Track), Diversity Committee</span>, <a href="https://eurovis.org.uk/committees-and-organization/" target='_blank'>EuroVis 2026</a>
         </span>
       </div>
       <div className="entry">
