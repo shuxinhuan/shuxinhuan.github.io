@@ -12,7 +12,7 @@ export const paperList: PAPER[] = [
     "year": 2026,
     "abbr": "CHI'26",
     "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2026",
-    "honor": "Best Paper Honorable Mention",
+    "honor": "Best Paper Honorable Mention (top 4%)",
     "materials": {
       "Paper": "./pub/metaphor.pdf",
       "Video": "./pub/metaphor.mp4",

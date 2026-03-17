@@ -129,7 +129,7 @@ function Resume () {
                 {paper.authorsB.length > 0 ? <>{paper.authorsB}.</> : <>.</>}
                 <span style={{ fontWeight: 500, color: '#CA662C' }}> {paper.title}</span>.
                 In <em>{paper.full}</em>.
-                {paper.honor.length > 0 ? <><br /><span style={{ fontSize: 15, fontWeight: 500, color: '#CA662C', borderBottom: '1px solid #CA662C' }}>🏆 {paper.honor}</span></> : <></>}
+                {paper.honor.length > 0 ? <><br /><span style={{ fontSize: 15, fontWeight: 500, color: '#CC4326', borderBottom: '1px solid #CC4326' }}>🏆 {paper.honor}</span></> : <></>}
               </span>
             </div>)
         })}
@@ -155,7 +155,7 @@ function Resume () {
               {paper.authorsB.length > 0 ? <>{paper.authorsB}.</> : <>.</>}
               <span style={{ fontWeight: 500, color: '#CA662C' }}> {paper.title}</span>.
               In <em>{paper.full}</em>.
-              {paper.honor.length > 0 ? <><br /><span style={{ fontSize: 15, fontWeight: 500, color: '#CA662C', borderBottom: '1px solid #CA662C' }}>🏆 {paper.honor}</span></> : <></>}
+              {paper.honor.length > 0 ? <><br /><span style={{ fontSize: 15, fontWeight: 500, color: '#CC4326', borderBottom: '1px solid #CC4326' }}>🏆 {paper.honor}</span></> : <></>}
             </span>
           </div>)
       })}
@@ -189,6 +189,12 @@ function Resume () {
 
     <h3>SELECTED HONORS & AWARDS</h3>
     <div>
+      <div className="entry">
+        <span className="time">2026</span>
+        <span className="item">
+          Best Paper Honorable Mention, CHI 2026
+        </span>
+      </div>
       <div className="entry">
         <span className="time">2025</span>
         <span className="item">
