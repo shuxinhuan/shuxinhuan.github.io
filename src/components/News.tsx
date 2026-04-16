@@ -60,6 +60,14 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div> */}
         <div className="news">
+          <span className="time">2026.04</span>
+          <span className="item">Our paper <em><a href="https://arxiv.org/pdf/2505.18668" className="text-hl" target='_blank'>ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation</a></em> was accepted by ICLR 2026. Find our poster in Brazil 🇧🇷!</span>
+        </div>
+        <div className="news">
+          <span className="time">2026.04</span>
+          <span className="item">Our paper <em><a href="https://www.arxiv.org/pdf/2507.22051" className="text-hl" target='_blank'>DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination</a></em> was conditionally accepted by ACM DIS 2026. Congratulations to Shelly and all the co-authors!</span>
+        </div>
+        <div className="news">
           <span className="time">2026.03</span>
           <span className="item">Our paper <em><a href="./pub/metaphor.pdf" className="text-hl" target='_blank'>Unpacking Visual Metaphors in Infographics: A Design Space</a></em> got the 🏆 <b>Best Paper Honorable Mention</b> award in CHI 2026. Congratulations to Yukai and all the co-authors!</span>
         </div>

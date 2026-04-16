@@ -11,7 +11,7 @@ function SelectedPublication () {
     'Human-AI Collaboration for Expressive Visualization Generation': [
       "Unpacking Visual Metaphors in Infographics: A Design Space",
       "DataWink: Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models",
-      "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization",
+      "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination",
     ],
     'Human-in-the-loop Trustworthy AI': [
       "BiasField: Interactive Bias Probing of Machine Learning Datasets",

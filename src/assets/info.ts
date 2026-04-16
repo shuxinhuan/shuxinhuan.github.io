@@ -2,11 +2,50 @@ import { MATERIALS, PAPER } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["story", "vis+ai"],
+    "tags": ['Human-AI Interaction', 'Storytelling', 'Vis Authoring', 'Animation', 'Visual Metaphors', 'AI4VIS'],
+    "thumb": "./pub/datasway.gif",
+    "title": "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination",
+    "authorsA": "Liwenhan Xie, Jiayi Zhou, Anyi Rao, Huamin Qu, ",
+    "authorsB": "",
+    "type": "Other",
+    "year": 2026,
+    "abbr": "DIS'26",
+    "full": "ACM Designing Interactive Systems, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "https://www.arxiv.org/pdf/2507.22051",
+      "Homepage": "https://shellywhen.github.io/projects/DataSway",
+      "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s',
+      "Demo": "https://shellywhen.github.io/datasway/",
+      "Corpus": "https://datasway.notion.site/",
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "tags": ['VIS4AI', 'Vis Authoring', 'Creativity'],
+    "thumb": "./pub/chartgalaxy.png",
+    "title": "ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation",
+    "authorsA": "Zhen Li*, Duan Li*, Yukai Guo*, Xinyuan Guo*, Bowen Li*, Lanxi Xiao, Shenyu Qiao, Jiashu Chen, Zijian Wu, Hui Zhang, ",
+    "authorsB": ", Shixia Liu",
+    "type": "Conference",
+    "year": 2026,
+    "abbr": "ICLR'26",
+    "full": "Proceedings of the International Conference on Learning Representations, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/pdf/2505.18668",
+      "Github": "https://github.com/ChartGalaxy/ChartGalaxy",
+      "Dataset": "https://huggingface.co/datasets/ChartGalaxy/ChartGalaxy",
+      // "DOI": "https://doi.org/10.1145/3706598.3714300",
+    } as MATERIALS
+  },
+  {
     "category": ["story", "art"],
     "tags": ['Visual Metaphors', 'Storytelling', 'Creativity'],
     "thumb": "./pub/metaphor.png",
     "title": "Unpacking Visual Metaphors in Infographics: A Design Space",
-    "authorsA": "Yukai Guo, Lanxi Xiao, ",
+    "authorsA": "Yukai Guo*, Lanxi Xiao*, ",
     "authorsB": ", Qiong Wu, Bongshin Lee, Shixia Liu",
     "type": "Conference",
     "year": 2026,
@@ -16,7 +55,7 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pub/metaphor.pdf",
       "Video": "./pub/metaphor.mp4",
-      // "DOI": "https://doi.org/10.1145/3706598.3714300",
+      "DOI": "https://doi.org/10.1145/3772318.3790840",
     } as MATERIALS
   },
   {
@@ -33,7 +72,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pub/fretflow.pdf",
-      // "DOI": "https://doi.org/10.1145/3706598.3714300",
+      "DOI": "https://doi.org/10.1145/3772318.379154",
     } as MATERIALS
   },
   {
@@ -49,28 +88,9 @@ export const paperList: PAPER[] = [
     "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2026",
     "honor": "",
     "materials": {
-      // "Paper": "./pub/careHCI.pdf",
+      "Paper": "./pub/careHCI.pdf",
       "Homepage": "https://care-hci.org",
-      // "DOI": "https://doi.org/10.1145/3706598.3714300",
-    } as MATERIALS
-  },
-  {
-    "category": ["story"],
-    "tags": ['VIS4AI', 'Vis Authoring', 'Creativity'],
-    "thumb": "./pub/chartgalaxy.png",
-    "title": "ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation",
-    "authorsA": "Zhen Li, Duan Li, Yukai Guo, Xinyuan Guo, Bowen Li, Lanxi Xiao, Shenyu Qiao, Jiashu Chen, Zijian Wu, Hui Zhang, ",
-    "authorsB": ", Shixia Liu",
-    "type": "Conference",
-    "year": 2026,
-    "abbr": "ICLR'26",
-    "full": "Proceedings of the International Conference on Learning Representations, 2026",
-    "honor": "",
-    "materials": {
-      "Paper": "https://arxiv.org/abs/2505.18668",
-      "Github": "https://github.com/ChartGalaxy/ChartGalaxy",
-      "Dataset": "https://huggingface.co/datasets/ChartGalaxy/ChartGalaxy",
-      // "DOI": "https://doi.org/10.1145/3706598.3714300",
+      "DOI": "https://doi.org/10.1145/3772318.3790811",
     } as MATERIALS
   },
   {
@@ -90,26 +110,6 @@ export const paperList: PAPER[] = [
       "Paper": "./pub/biasfield.pdf",
       "Video": "./pub/biasfield.mp4",
       // "DOI": "https://doi.org/10.1145/3706598.3714300",
-    } as MATERIALS
-  },
-  {
-    "category": ["story", "vis+ai"],
-    "tags": ['Human-AI Interaction', 'Storytelling', 'Vis Authoring', 'Animation', 'Visual Metaphors', 'AI4VIS'],
-    "thumb": "./pub/datasway.gif",
-    "title": "DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination",
-    "authorsA": "Liwenhan Xie, Jiayi Zhou, Anyi Rao, Huamin Qu, ",
-    "authorsB": "",
-    "type": "Other",
-    "year": 2025,
-    "abbr": "arXiv",
-    "full": "arXiv, 2025",
-    "honor": "",
-    "materials": {
-      "Paper": "https://www.arxiv.org/pdf/2507.22051",
-      "Homepage": "https://shellywhen.github.io/projects/DataSway",
-      "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s',
-      "Demo": "https://shellywhen.github.io/datasway/",
-      "Corpus": "https://datasway.notion.site/",
     } as MATERIALS
   },
   {
