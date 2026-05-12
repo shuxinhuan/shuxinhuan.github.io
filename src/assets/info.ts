@@ -12,13 +12,14 @@ export const paperList: PAPER[] = [
     "year": 2026,
     "abbr": "DIS'26",
     "full": "ACM Designing Interactive Systems, 2026",
-    "honor": "",
+    "honor": "Best Paper (top 1%)",
     "materials": {
       "Paper": "https://www.arxiv.org/pdf/2507.22051",
       "Homepage": "https://shellywhen.github.io/projects/DataSway",
       "Video": 'https://www.youtube.com/watch?v=4aMo1C6sY8s',
       "Demo": "https://shellywhen.github.io/datasway/",
       "Corpus": "https://datasway.notion.site/",
+      "DOI": "https://doi.org/10.1145/3800645.3813048",
     } as MATERIALS
   },
   {
@@ -51,7 +52,7 @@ export const paperList: PAPER[] = [
     "year": 2026,
     "abbr": "CHI'26",
     "full": "Proceedings of ACM Conference on Human Factors in Computing Systems, 2026",
-    "honor": "Best Paper Honorable Mention (top 4%)",
+    "honor": "Honorable Mention (top 4%)",
     "materials": {
       "Paper": "./pub/metaphor.pdf",
       "Video": "./pub/metaphor.mp4",

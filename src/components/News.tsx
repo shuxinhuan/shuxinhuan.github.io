@@ -60,28 +60,32 @@ function News () {
           <span className="item">We are organizing a monthly 📊 <a className="text-hl" href="https://www.meetup.com/datavisedinburgh/" target='_blank'>Data Visualisation Meetup</a> in Newcastle and Edinburgh. Welcome to subscribe and stay updated on our events! </span>
         </div> */}
         <div className="news">
-          <span className="time">2026.04</span>
-          <span className="item">Our paper <em><a href="https://arxiv.org/pdf/2505.18668" className="text-hl" target='_blank'>ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation</a></em> was accepted by ICLR 2026. Find our poster in Brazil 🇧🇷!</span>
+          <span className="time">2026.05</span>
+          <span className="item">Our paper <em><a href="https://shellywhen.github.io/projects/DataSway" className="text-hl" target='_blank'>DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination</a></em> got the 🏆 <b style={{ color: '#CC4326' }}>Best Paper</b> award in <strong>ACM DIS 2026</strong>. Congratulations to Shelly and all the co-authors!</span>
         </div>
         <div className="news">
           <span className="time">2026.04</span>
-          <span className="item">Our paper <em><a href="https://www.arxiv.org/pdf/2507.22051" className="text-hl" target='_blank'>DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination</a></em> was conditionally accepted by ACM DIS 2026. Congratulations to Shelly and all the co-authors!</span>
+          <span className="item">Our paper <em><a href="https://arxiv.org/pdf/2505.18668" className="text-hl" target='_blank'>ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation</a></em> was accepted by <strong>ICLR 2026</strong>. Find our poster in Brazil 🇧🇷!</span>
+        </div>
+        <div className="news">
+          <span className="time">2026.04</span>
+          <span className="item">Our paper <em><a href="https://shellywhen.github.io/projects/DataSway" className="text-hl" target='_blank'>DataSway: Vivifying Metaphoric Visualization with Animation Clip Generation and Coordination</a></em> was conditionally accepted by <strong>ACM DIS 2026</strong>. Congratulations to Shelly and all the co-authors!</span>
         </div>
         <div className="news">
           <span className="time">2026.03</span>
-          <span className="item">Our paper <em><a href="./pub/metaphor.pdf" className="text-hl" target='_blank'>Unpacking Visual Metaphors in Infographics: A Design Space</a></em> got the 🏆 <b>Best Paper Honorable Mention</b> award in CHI 2026. Congratulations to Yukai and all the co-authors!</span>
+          <span className="item">Our paper <em><a href="./pub/metaphor.pdf" className="text-hl" target='_blank'>Unpacking Visual Metaphors in Infographics: A Design Space</a></em> got the 🏆 <b style={{ color: '#CC4326' }}>Best Paper Honorable Mention</b> award in <strong>CHI 2026</strong>. Congratulations to Yukai and all the co-authors!</span>
         </div>
         <div className="news">
           <span className="time">2026.1</span>
-          <span className="item">Three papers about <a className="text-hl" href="./pub/metaphor.pdf" target='_blank'><em>Visual Metaphors in Infographics</em></a>, <a className="text-hl" href="./pub/fretflow.pdf" target='_blank'><em>Adaptive Haptics for Rhythm and Articulation in Guitar Learning</em></a>, and <a className="text-hl" href="https://care-hci.org/" target='_blank'><em>A Meta-Narrative Review of HCI Research on Care</em></a> were conditionally accepted by ACM CHI 2026. See you in Barcelona 🇪🇸!</span>
+          <span className="item">Three papers about <a className="text-hl" href="./pub/metaphor.pdf" target='_blank'><em>Visual Metaphors in Infographics</em></a>, <a className="text-hl" href="./pub/fretflow.pdf" target='_blank'><em>Adaptive Haptics for Rhythm and Articulation in Guitar Learning</em></a>, and <a className="text-hl" href="https://care-hci.org/" target='_blank'><em>A Meta-Narrative Review of HCI Research on Care</em></a> were conditionally accepted by <strong>ACM CHI 2026</strong>. See you in Barcelona 🇪🇸!</span>
         </div>
         <div className="news">
           <span className="time">2025.12</span>
-          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/committees-and-organization/" target="_blank">Diversity Co-Chair</a>👩‍⚖️ for EuroVis 2026.</span>
+          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/committees-and-organization/" target="_blank">Diversity Co-Chair</a>👩‍⚖️ for <strong>EuroVis 2026</strong>.</span>
         </div>
         <div className="news">
           <span className="time">2025.12</span>
-          <span className="item">Our paper <a href="./pub/biasfield.pdf" className="text-hl"><em>BiasField: Interactive Bias Probing of Machine Learning Datasets</em></a> got accepted by <b>IEEE PacificVis (TVCG track) 2025</b>. Congratulations to Zhen and all the co-authors! 🎉</span>
+          <span className="item">Our paper <a href="./pub/biasfield.pdf" className="text-hl"><em>BiasField: Interactive Bias Probing of Machine Learning Datasets</em></a> got accepted by <strong>IEEE PacificVis (TVCG track) 2025</strong>. Congratulations to Zhen and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.11</span>
@@ -93,7 +97,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.08</span>
-          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/education-papers/" target="_blank">Education Papers Co-chair</a>👩‍⚖️ for EuroVis 2026.</span>
+          <span className="item">I'm honored to serve as a <a className="text-hl" href="https://eurovis.org.uk/education-papers/" target="_blank">Education Papers Co-chair</a>👩‍⚖️ for <strong>EuroVis 2026</strong>.</span>
         </div>
         <div className="news">
           <span className="time">2025.07</span>
@@ -101,11 +105,11 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.07</span>
-          <span className="item">Our paper <a className="text-hl" href="https://shellywhen.github.io/projects/DataWink" target='_blank'><em>DataWink</em></a> got accepted by <b>IEEE VIS 2025</b>. Congratulations to Liwenhan and all the co-authors! 🎉</span>
+          <span className="item">Our paper <a className="text-hl" href="https://shellywhen.github.io/projects/DataWink" target='_blank'><em>DataWink</em></a> got accepted by <strong>IEEE VIS 2025</strong>. Congratulations to Liwenhan and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.07</span>
-          <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT</em></a> got accepted by <b>ACM UIST 2025</b>. Congratulations to Jiajun and all the co-authors! 🎉</span>
+          <span className="item">Our paper <a className="text-hl" href="https://www.arxiv.org/abs/2508.01279" target='_blank'><em>ViseGPT</em></a> got accepted by <strong>ACM UIST 2025</strong>. Congratulations to Jiajun and all the co-authors! 🎉</span>
         </div>
         <div className="news">
           <span className="time">2025.06</span>
@@ -121,7 +125,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2025.04</span>
-          <span className="item"><a href="https://trajectory-anim.github.io/" className="text-hl" target='_blank'>RouteFlow: Trajectory-Aware Animated Transitions</a> got the 🏆 <b>Best Paper</b> award in CHI 2025. Congratulations to all the co-authors!</span>
+          <span className="item"><a href="https://trajectory-anim.github.io/" className="text-hl" target='_blank'>RouteFlow: Trajectory-Aware Animated Transitions</a> got the 🏆 <b style={{ color: '#CC4326' }}>Best Paper</b> award in <strong>CHI 2025</strong>. Congratulations to all the co-authors!</span>
         </div>
         <div className="news">
           <span className="time">2025.04</span>

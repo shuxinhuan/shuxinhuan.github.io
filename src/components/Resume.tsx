@@ -238,7 +238,7 @@ function Resume () {
     <div className="entry">
       <span className="time">2025</span>
       <span className="item">
-          <span>Leverage GenAI and Graphical Models and Reasoning to Innovate for Scientific Discovery</span><br/>
+          <span>GenAI-driven Enterprise Knowledge Management and Discovery Platform for Product Innovation</span><br/>
           £217k, a 2-year KTP project with P&G.
       </span>
     </div>
