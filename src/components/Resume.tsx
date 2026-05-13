@@ -50,9 +50,9 @@ function Resume () {
         <div className="entry">
           <span className="time">2024-</span>
           <span className="item">
-            <span className='cv-hl'>Newcastle Univeristy</span>, Newcastle Upon Tyne, UK <br /> 
+            <span className='cv-hl'>Newcastle University</span>, Newcastle Upon Tyne, UK <br /> 
             <em>Lecturer (Assistant Professor), School of Computing</em> <br /> 
-            <em>Director for Data Science with Visualization (Human-Centred AI) MSc Program</em>
+            <em>Director for Human-Centred AI MSc Program</em>
           </span>
         </div>
         <div className="entry">
