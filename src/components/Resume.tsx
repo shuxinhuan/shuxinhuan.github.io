@@ -192,13 +192,19 @@ function Resume () {
       <div className="entry">
         <span className="time">2026</span>
         <span className="item">
-          Best Paper Honorable Mention, CHI 2026
+            Best Paper Award, DIS 2026
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2026</span>
+        <span className="item">
+          Best Paper Honorable Mention Award, CHI 2026
         </span>
       </div>
       <div className="entry">
         <span className="time">2025</span>
         <span className="item">
-          Best Paper, CHI 2025
+          Best Paper Award, CHI 2025
         </span>
       </div>
       <div className="entry">
@@ -391,7 +397,7 @@ function Resume () {
         <span className="item">
             <span className="cv-hl"><a href="https://shellywhen.github.io/" target='_blank'>Liwenhan Xie</a></span>, PhD student at HKUST
           <br />
-          <em>Creating Emordle: Animating Word Cloud for Emotion Expression [{getPubofFirstAuthor('Liwenhan Xie')}]</em>
+            <em>Designing Interactive Scaffolds for Steering Expressive Visualization Generation [{getPubofFirstAuthor('Liwenhan Xie')}]</em>
         </span>
       </div>
       <div className="entry">
